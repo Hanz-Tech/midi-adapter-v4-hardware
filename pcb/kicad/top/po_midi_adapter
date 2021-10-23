@@ -1,0 +1,18 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    </head>
+    <body>
+    <h1>C:\Users\admin\Documents\GitHub\po_midi_adapter\pcb\po_midi_adapter\po_midi_adapter.sch</h1>
+    <p>2020-08-02 12:44:47 PM</p>
+    <p>Eeschema (5.1.4)-1</p>
+    <p><b>Component Count:</b>41</p>
+    <table>
+    <tr><th style='width:640px'>Ref</th><th>Qnty</th><th>Value</th><th>Part</th><th>Datasheet</th><th>Description</th><th>Vendor</th></tr><tr><td>C1, C2</td><td>2</td><td>0.1uF</td><td>Device:C</td><td>~</td><td>Unpolarized capacitor</td><td></td></tr><tr><td>D1</td><td>1</td><td>1N914</td><td>Diode:1N914</td><td>http://www.vishay.com/docs/85622/1n914.pdf</td><td>100V 0.3A Small Signal Fast Switching Diode, DO-35</td><td></td></tr><tr><td>J0</td><td>1</td><td>PJ-320B</td><td>jacks:PJ-320B</td><td></td><td></td><td></td></tr><tr><td>J4, J5, J6, J7, J8, J9, J10, J11, J12, J13, J14, J15, J16, J17, J19, J20, J21, J22, J23, J24, J25, J26, J27, J28</td><td>24</td><td>Conn_01x01</td><td>Connector_Generic:Conn_01x01</td><td>~</td><td>Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)</td><td></td></tr><tr><td>J18</td><td>1</td><td>Conn_01x02</td><td>Connector_Generic:Conn_01x02</td><td>~</td><td>Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)</td><td></td></tr><tr><td>J29</td><td>1</td><td>MIDI_1_OUT</td><td>Connector:DIN-5_180degree</td><td>http://www.mouser.com/ds/2/18/40_c091_abd_e-75918.pdf</td><td>5-pin DIN connector (5-pin DIN-5 stereo)</td><td></td></tr><tr><td>J30</td><td>1</td><td>MIDI_1_IN</td><td>Connector:DIN-5_180degree</td><td>http://www.mouser.com/ds/2/18/40_c091_abd_e-75918.pdf</td><td>5-pin DIN connector (5-pin DIN-5 stereo)</td><td></td></tr><tr><td>J31</td><td>1</td><td>USB_A</td><td>Connector:USB_A</td><td> ~</td><td>USB Type A connector</td><td></td></tr><tr><td>J32</td><td>1</td><td>Conn_01x04</td><td>Connector_Generic:Conn_01x04</td><td>~</td><td>Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)</td><td></td></tr><tr><td>R2, R3, R7</td><td>3</td><td>220</td><td>Device:R</td><td>~</td><td>Resistor</td><td></td></tr><tr><td>R4</td><td>1</td><td>10k</td><td>Device:R</td><td>~</td><td>Resistor</td><td></td></tr><tr><td>R8</td><td>1</td><td>470</td><td>Device:R</td><td>~</td><td>Resistor</td><td></td></tr><tr><td>U1</td><td>1</td><td>Teensy4.1</td><td>teensy:Teensy4.1</td><td></td><td></td><td></td></tr><tr><td>U2</td><td>1</td><td>SN74HC125N</td><td>SN74HC125N:SN74HC125N</td><td>DIP-14 Texas Instruments</td><td></td><td></td></tr><tr><td>U3</td><td>1</td><td>H11L1M</td><td>dk_Optoisolators-Logic-Output:H11L1M</td><td>http://www.onsemi.com/pub/Collateral/H11L3M-D.pdf</td><td>OPTOISO 4.17KV OPN COLL 6DIP</td><td></td></tr><!--TABLEROW-->
+    </table>
+    </body>
+</html>
+    
