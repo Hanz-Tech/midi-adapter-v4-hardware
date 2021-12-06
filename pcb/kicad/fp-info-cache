@@ -1,4 +1,4 @@
-19989505455282065
+19992807941674379
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -86456,20 +86456,34 @@ B.SilkS_g842
 0
 0
 0
-po_midi_adapter
-hanz_tech_log
+poma
+3.5mm_stereo_jack_PJ320B_THRU
 
 
 0
+3
+3
+poma
+MIDI_DIN5_NO_ATTACHEMENT
+Din 5 (MIDI), Pro Signal P/N PSG03463
+
 0
-0
-po_midi_adapter
-hanztech_logo
+5
+5
+poma
+TE_292303-1
 
 
 0
+6
+6
+poma
+Teensy41_poma
+
+
 0
-0
+54
+54
 usb_a_connector
 TE_292303-1
 

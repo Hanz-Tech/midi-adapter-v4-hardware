@@ -1,3 +1,4 @@
 (fp_lib_table
-  (lib (name po_midi_adapter)(type KiCad)(uri ${KIPRJMOD}/po_midi_adapter.pretty)(options "")(descr ""))
+  (lib (name poma)(type KiCad)(uri ${KIPRJMOD}/poma.pretty)(options "")(descr ""))
+  (lib (name logo)(type KiCad)(uri ${KIPRJMOD}/logo)(options "")(descr ""))
 )
