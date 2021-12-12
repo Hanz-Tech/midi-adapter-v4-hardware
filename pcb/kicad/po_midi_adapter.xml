@@ -2,7 +2,7 @@
 <export version="D">
   <design>
     <source>C:\Users\han\Documents\github\midi-adapter-v3-hardware\pcb\kicad\po_midi_adapter.sch</source>
-    <date>12/6/2021 11:40:11 PM</date>
+    <date>12/11/2021 11:30:02 PM</date>
     <tool>Eeschema (5.1.10)-1</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -504,28 +504,9 @@
       <sheetpath names="/bottom/" tstamps="/61A9B941/"/>
       <tstamp>61AFAE37</tstamp>
     </comp>
-    <comp ref="MOD1">
-      <value>ESP32-WROOM-32</value>
-      <footprint>digikey-footprints:ESP32-WROOM-32D</footprint>
-      <datasheet>https://www.espressif.com/sites/default/files/documentation/esp32-wroom-32_datasheet_en.pdf</datasheet>
-      <fields>
-        <field name="Category">RF/IF and RFID</field>
-        <field name="DK_Datasheet_Link">https://www.espressif.com/sites/default/files/documentation/esp32-wroom-32_datasheet_en.pdf</field>
-        <field name="DK_Detail_Page">/product-detail/en/espressif-systems/ESP32-WROOM-32/1904-1010-1-ND/8544305</field>
-        <field name="Description">SMD MODULE, ESP32-D0WDQ6, 32MBIT</field>
-        <field name="Digi-Key_PN">1904-1010-1-ND</field>
-        <field name="Family">RF Transceiver Modules</field>
-        <field name="MPN">ESP32-WROOM-32</field>
-        <field name="Manufacturer">Espressif Systems</field>
-        <field name="Status">Active</field>
-      </fields>
-      <libsource lib="dk_RF-Transceiver-Modules" part="ESP32-WROOM-32" description="SMD MODULE, ESP32-D0WDQ6, 32MBIT"/>
-      <sheetpath names="/bottom/" tstamps="/61A9B941/"/>
-      <tstamp>61B13C84</tstamp>
-    </comp>
     <comp ref="U4">
       <value>LM1117-3.3</value>
-      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <footprint>Package_TO_SOT_SMD:SOT-223</footprint>
       <datasheet>http://www.ti.com/lit/ds/symlink/lm1117.pdf</datasheet>
       <libsource lib="Regulator_Linear" part="LM1117-3.3" description="800mA Low-Dropout Linear Regulator, 3.3V fixed output, TO-220/TO-252/TO-263/SOT-223"/>
       <sheetpath names="/bottom/" tstamps="/61A9B941/"/>
@@ -586,7 +567,15 @@
       <sheetpath names="/bottom/" tstamps="/61A9B941/"/>
       <tstamp>61B07453</tstamp>
     </comp>
-    <comp ref="J98">
+    <comp ref="U5">
+      <value>ESP32-C3-WROOM-02</value>
+      <footprint>Espressif:ESP32-C3-WROOM-02</footprint>
+      <datasheet>https://www.espressif.com/sites/default/files/documentation/esp32-c3-wroom-02_datasheet_en.pdf</datasheet>
+      <libsource lib="poma" part="ESP32-C3-WROOM-02" description="ESP32-C3-WROOM-02 is a general-purpose Wi-Fi and Bluetooth LE module. This module features a rich set of peripherals and high performance, which makes it an ideal choice for smart home, industrial automation, health care, consumer electronics, etc."/>
+      <sheetpath names="/bottom/" tstamps="/61A9B941/"/>
+      <tstamp>61AFDD18</tstamp>
+    </comp>
+    <comp ref="J96">
       <value>0022232041</value>
       <footprint>digikey-footprints:PinHeader_1x4_P2.54mm_Drill1.02mm</footprint>
       <datasheet>https://www.molex.com/pdm_docs/sd/022232041_sd.pdf</datasheet>
@@ -603,7 +592,39 @@
       </fields>
       <libsource lib="dk_Rectangular-Connectors-Headers-Male-Pins" part="0022232041" description="CONN HEADER VERT 4POS 2.54MM"/>
       <sheetpath names="/bottom/" tstamps="/61A9B941/"/>
-      <tstamp>61B115B7</tstamp>
+      <tstamp>61B2519B</tstamp>
+    </comp>
+    <comp ref="D4">
+      <value>LED</value>
+      <footprint>LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <sheetpath names="/bottom/" tstamps="/61A9B941/"/>
+      <tstamp>61B50100</tstamp>
+    </comp>
+    <comp ref="R12">
+      <value>50</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/bottom/" tstamps="/61A9B941/"/>
+      <tstamp>61B51531</tstamp>
+    </comp>
+    <comp ref="D5">
+      <value>LED</value>
+      <footprint>LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <sheetpath names="/bottom/" tstamps="/61A9B941/"/>
+      <tstamp>61B55875</tstamp>
+    </comp>
+    <comp ref="R13">
+      <value>50</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/bottom/" tstamps="/61A9B941/"/>
+      <tstamp>61B564B7</tstamp>
     </comp>
   </components>
   <libparts>
@@ -838,66 +859,6 @@
         <pin num="6" name="VCC" type="power_in"/>
       </pins>
     </libpart>
-    <libpart lib="dk_RF-Transceiver-Modules" part="ESP32-WROOM-32">
-      <description>SMD MODULE, ESP32-D0WDQ6, 32MBIT</description>
-      <docs>https://www.espressif.com/sites/default/files/documentation/esp32-wroom-32_datasheet_en.pdf</docs>
-      <fields>
-        <field name="Reference">MOD</field>
-        <field name="Value">ESP32-WROOM-32</field>
-        <field name="Footprint">digikey-footprints:ESP32-WROOM-32D</field>
-        <field name="Datasheet">https://www.espressif.com/sites/default/files/documentation/esp32-wroom-32_datasheet_en.pdf</field>
-        <field name="Digi-Key_PN">1904-1010-1-ND</field>
-        <field name="MPN">ESP32-WROOM-32</field>
-        <field name="Category">RF/IF and RFID</field>
-        <field name="Family">RF Transceiver Modules</field>
-        <field name="DK_Datasheet_Link">https://www.espressif.com/sites/default/files/documentation/esp32-wroom-32_datasheet_en.pdf</field>
-        <field name="DK_Detail_Page">/product-detail/en/espressif-systems/ESP32-WROOM-32/1904-1010-1-ND/8544305</field>
-        <field name="Description">SMD MODULE, ESP32-D0WDQ6, 32MBIT</field>
-        <field name="Manufacturer">Espressif Systems</field>
-        <field name="Status">Active</field>
-      </fields>
-      <pins>
-        <pin num="1" name="GND" type="power_in"/>
-        <pin num="2" name="3V3" type="power_in"/>
-        <pin num="3" name="EN" type="input"/>
-        <pin num="4" name="SENSOR_VP" type="input"/>
-        <pin num="5" name="SENSOR_VN" type="input"/>
-        <pin num="6" name="IO34" type="BiDi"/>
-        <pin num="7" name="IO35" type="BiDi"/>
-        <pin num="8" name="IO32" type="BiDi"/>
-        <pin num="9" name="IO33" type="BiDi"/>
-        <pin num="10" name="IO25" type="BiDi"/>
-        <pin num="11" name="IO26" type="BiDi"/>
-        <pin num="12" name="IO27" type="BiDi"/>
-        <pin num="13" name="IO14" type="BiDi"/>
-        <pin num="14" name="IO12" type="BiDi"/>
-        <pin num="15" name="GND" type="power_in"/>
-        <pin num="16" name="IO13" type="BiDi"/>
-        <pin num="17" name="SHD/SD2" type="BiDi"/>
-        <pin num="18" name="SWP/SD3" type="BiDi"/>
-        <pin num="19" name="SCS/CMD" type="BiDi"/>
-        <pin num="20" name="SCK/CLK" type="BiDi"/>
-        <pin num="21" name="SDO/SD0" type="BiDi"/>
-        <pin num="22" name="SDI/SD1" type="BiDi"/>
-        <pin num="23" name="IO15" type="BiDi"/>
-        <pin num="24" name="IO2" type="BiDi"/>
-        <pin num="25" name="IO0" type="BiDi"/>
-        <pin num="26" name="IO4" type="BiDi"/>
-        <pin num="27" name="IO16" type="BiDi"/>
-        <pin num="28" name="IO17" type="BiDi"/>
-        <pin num="29" name="IO5" type="BiDi"/>
-        <pin num="30" name="IO18" type="BiDi"/>
-        <pin num="31" name="IO19" type="BiDi"/>
-        <pin num="32" name="NC" type="NotConnected"/>
-        <pin num="33" name="IO21" type="BiDi"/>
-        <pin num="34" name="RXD0" type="BiDi"/>
-        <pin num="35" name="TXD0" type="BiDi"/>
-        <pin num="36" name="IO22" type="BiDi"/>
-        <pin num="37" name="IO23" type="BiDi"/>
-        <pin num="38" name="GND" type="power_in"/>
-        <pin num="39" name="GND" type="power_in"/>
-      </pins>
-    </libpart>
     <libpart lib="dk_Rectangular-Connectors-Headers-Male-Pins" part="0022232041">
       <description>CONN HEADER VERT 4POS 2.54MM</description>
       <docs>https://www.molex.com/pdm_docs/sd/022232041_sd.pdf</docs>
@@ -921,6 +882,36 @@
         <pin num="2" name="~" type="passive"/>
         <pin num="3" name="~" type="passive"/>
         <pin num="4" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="poma" part="ESP32-C3-WROOM-02">
+      <description>ESP32-C3-WROOM-02 is a general-purpose Wi-Fi and Bluetooth LE module. This module features a rich set of peripherals and high performance, which makes it an ideal choice for smart home, industrial automation, health care, consumer electronics, etc.</description>
+      <docs>https://www.espressif.com/sites/default/files/documentation/esp32-c3-wroom-02_datasheet_en.pdf</docs>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">ESP32-C3-WROOM-02</field>
+        <field name="Footprint">Espressif:ESP32-C3-WROOM-02</field>
+      </fields>
+      <pins>
+        <pin num="1" name="3V3" type="power_in"/>
+        <pin num="2" name="EN/CHIP_PU" type="input"/>
+        <pin num="3" name="GPIO4/ADC1_CH4" type="BiDi"/>
+        <pin num="4" name="GPIO5/ADC2_CH0" type="BiDi"/>
+        <pin num="5" name="GPIO6" type="BiDi"/>
+        <pin num="6" name="GPIO7" type="BiDi"/>
+        <pin num="7" name="GPIO8" type="BiDi"/>
+        <pin num="8" name="GPIO9" type="BiDi"/>
+        <pin num="9" name="GND" type="power_in"/>
+        <pin num="10" name="GPIO10" type="BiDi"/>
+        <pin num="11" name="GPIO20/U0RXD" type="BiDi"/>
+        <pin num="12" name="GPIO21/U0TXD" type="BiDi"/>
+        <pin num="13" name="GPIO18/USB_D-" type="BiDi"/>
+        <pin num="14" name="GPIO19/USB_D+" type="BiDi"/>
+        <pin num="15" name="GPIO3/ADC1_CH3" type="BiDi"/>
+        <pin num="16" name="GPIO2/ADC1_CH2" type="BiDi"/>
+        <pin num="17" name="GPIO1/ADC1_CH1/XTAL_32K_N" type="BiDi"/>
+        <pin num="18" name="GPIO0/ADC1_CH0/XTAL_32K_P" type="BiDi"/>
+        <pin num="19" name="GND" type="power_in"/>
       </pins>
     </libpart>
     <libpart lib="poma" part="PJ-320B">
@@ -1061,9 +1052,6 @@
     <library logical="dk_Optoisolators-Logic-Output">
       <uri>C:/Users/han/Documents/KiCad_Libraries/digikey-symbols/dk_Optoisolators-Logic-Output.lib</uri>
     </library>
-    <library logical="dk_RF-Transceiver-Modules">
-      <uri>C:/Users/han/Documents/KiCad_Libraries/digikey-symbols/dk_RF-Transceiver-Modules.lib</uri>
-    </library>
     <library logical="dk_Rectangular-Connectors-Headers-Male-Pins">
       <uri>C:/Users/han/Documents/KiCad_Libraries/digikey-symbols/dk_Rectangular-Connectors-Headers-Male-Pins.lib</uri>
     </library>
@@ -1089,8 +1077,8 @@
       <node ref="J38" pin="2"/>
     </net>
     <net code="5" name="/bottom/GPIO_14">
-      <node ref="U1" pin="7"/>
       <node ref="J38" pin="1"/>
+      <node ref="U1" pin="7"/>
     </net>
     <net code="6" name="/bottom/GPIO_9">
       <node ref="U1" pin="44"/>
@@ -1101,12 +1089,12 @@
       <node ref="J35" pin="3"/>
     </net>
     <net code="8" name="/bottom/GIPO_PATTERN">
-      <node ref="U1" pin="32"/>
       <node ref="J39" pin="3"/>
+      <node ref="U1" pin="32"/>
     </net>
     <net code="9" name="/bottom/GPIO_BPM">
-      <node ref="U1" pin="33"/>
       <node ref="J39" pin="2"/>
+      <node ref="U1" pin="33"/>
     </net>
     <net code="10" name="/bottom/GPIO_1">
       <node ref="J39" pin="1"/>
@@ -1117,52 +1105,52 @@
       <node ref="U1" pin="39"/>
     </net>
     <net code="12" name="/bottom/GPIO_5">
-      <node ref="J34" pin="3"/>
       <node ref="U1" pin="40"/>
+      <node ref="J34" pin="3"/>
     </net>
     <net code="13" name="/bottom/GPIO_6">
-      <node ref="J34" pin="2"/>
       <node ref="U1" pin="41"/>
+      <node ref="J34" pin="2"/>
     </net>
     <net code="14" name="/bottom/GND">
-      <node ref="U3" pin="5"/>
+      <node ref="C7" pin="2"/>
+      <node ref="C5" pin="2"/>
+      <node ref="U4" pin="1"/>
+      <node ref="J99" pin="4"/>
+      <node ref="C6" pin="2"/>
+      <node ref="C4" pin="2"/>
       <node ref="R10" pin="2"/>
-      <node ref="U1" pin="64"/>
-      <node ref="U1" pin="1"/>
-      <node ref="U1" pin="34"/>
-      <node ref="C1" pin="1"/>
+      <node ref="J70" pin="5"/>
+      <node ref="R12" pin="1"/>
+      <node ref="U3" pin="5"/>
+      <node ref="U5" pin="9"/>
+      <node ref="U5" pin="19"/>
+      <node ref="R13" pin="2"/>
+      <node ref="S1" pin="1"/>
+      <node ref="J96" pin="1"/>
+      <node ref="J0" pin="1"/>
+      <node ref="C3" pin="1"/>
+      <node ref="J90" pin="2"/>
       <node ref="C2" pin="1"/>
+      <node ref="C1" pin="1"/>
+      <node ref="U1" pin="52"/>
+      <node ref="U1" pin="5"/>
+      <node ref="U1" pin="47"/>
+      <node ref="U2" pin="1"/>
+      <node ref="J34" pin="1"/>
       <node ref="U2" pin="7"/>
       <node ref="U1" pin="6"/>
-      <node ref="J99" pin="4"/>
-      <node ref="U1" pin="47"/>
-      <node ref="U1" pin="5"/>
-      <node ref="U1" pin="52"/>
-      <node ref="U1" pin="58"/>
       <node ref="U1" pin="59"/>
-      <node ref="J90" pin="2"/>
-      <node ref="MOD1" pin="1"/>
-      <node ref="C7" pin="2"/>
-      <node ref="MOD1" pin="39"/>
-      <node ref="MOD1" pin="38"/>
-      <node ref="MOD1" pin="15"/>
-      <node ref="U4" pin="1"/>
-      <node ref="C6" pin="2"/>
-      <node ref="R4" pin="1"/>
-      <node ref="U2" pin="1"/>
+      <node ref="U1" pin="58"/>
+      <node ref="U1" pin="64"/>
       <node ref="J70" pin="4"/>
-      <node ref="C5" pin="2"/>
-      <node ref="S1" pin="1"/>
-      <node ref="C4" pin="2"/>
-      <node ref="C3" pin="1"/>
-      <node ref="J70" pin="5"/>
-      <node ref="J98" pin="1"/>
-      <node ref="J0" pin="1"/>
-      <node ref="J34" pin="1"/>
+      <node ref="U1" pin="34"/>
+      <node ref="R4" pin="1"/>
+      <node ref="U1" pin="1"/>
     </net>
     <net code="15" name="/bottom/GPIO_SPECIAL">
-      <node ref="U1" pin="23"/>
       <node ref="J35" pin="4"/>
+      <node ref="U1" pin="23"/>
     </net>
     <net code="16" name="/bottom/GPIO_3">
       <node ref="U1" pin="19"/>
@@ -1173,8 +1161,8 @@
       <node ref="U1" pin="18"/>
     </net>
     <net code="18" name="/bottom/GPIO_8">
-      <node ref="J36" pin="4"/>
       <node ref="U1" pin="17"/>
+      <node ref="J36" pin="4"/>
     </net>
     <net code="19" name="/bottom/GPIO_7">
       <node ref="U1" pin="16"/>
@@ -1189,24 +1177,24 @@
       <node ref="J36" pin="1"/>
     </net>
     <net code="22" name="/bottom/GPIO_11">
-      <node ref="J37" pin="4"/>
       <node ref="U1" pin="42"/>
+      <node ref="J37" pin="4"/>
     </net>
     <net code="23" name="/bottom/GPIO_10">
       <node ref="J37" pin="3"/>
       <node ref="U1" pin="43"/>
     </net>
     <net code="24" name="/top/GPIO_15">
-      <node ref="J7" pin="1"/>
       <node ref="J32" pin="2"/>
+      <node ref="J7" pin="1"/>
     </net>
     <net code="25" name="/top/GPIO_14">
-      <node ref="J16" pin="1"/>
       <node ref="J32" pin="1"/>
+      <node ref="J16" pin="1"/>
     </net>
     <net code="26" name="/top/GPIO_1">
-      <node ref="J26" pin="1"/>
       <node ref="J6" pin="1"/>
+      <node ref="J26" pin="1"/>
     </net>
     <net code="27" name="/top/GPIO_BPM">
       <node ref="J26" pin="2"/>
@@ -1221,20 +1209,20 @@
       <node ref="J19" pin="1"/>
     </net>
     <net code="30" name="/bottom/GPIO_SOUND">
-      <node ref="U1" pin="31"/>
       <node ref="J39" pin="4"/>
+      <node ref="U1" pin="31"/>
     </net>
     <net code="31" name="/top/GPIO_2">
-      <node ref="J27" pin="4"/>
       <node ref="J5" pin="1"/>
+      <node ref="J27" pin="4"/>
     </net>
     <net code="32" name="/top/GPIO_7">
       <node ref="J10" pin="1"/>
       <node ref="J29" pin="3"/>
     </net>
     <net code="33" name="/top/GPIO_WRITE">
-      <node ref="J32" pin="3"/>
       <node ref="J18" pin="1"/>
+      <node ref="J32" pin="3"/>
     </net>
     <net code="34" name="/top/GPIO_16">
       <node ref="J25" pin="1"/>
@@ -1245,12 +1233,12 @@
       <node ref="J30" pin="1"/>
     </net>
     <net code="36" name="/top/GPIO_9">
-      <node ref="J12" pin="1"/>
       <node ref="J30" pin="2"/>
+      <node ref="J12" pin="1"/>
     </net>
     <net code="37" name="/top/GPIO_10">
-      <node ref="J13" pin="1"/>
       <node ref="J30" pin="3"/>
+      <node ref="J13" pin="1"/>
     </net>
     <net code="38" name="/top/GPIO_11">
       <node ref="J28" pin="1"/>
@@ -1261,28 +1249,28 @@
       <node ref="J29" pin="1"/>
     </net>
     <net code="40" name="/top/GPIO_PLAY">
-      <node ref="J24" pin="1"/>
       <node ref="J29" pin="2"/>
+      <node ref="J24" pin="1"/>
     </net>
     <net code="41" name="/top/GPIO_8">
       <node ref="J29" pin="4"/>
       <node ref="J11" pin="1"/>
     </net>
     <net code="42" name="/top/GPIO_FX">
-      <node ref="J33" pin="1"/>
       <node ref="J23" pin="1"/>
+      <node ref="J33" pin="1"/>
     </net>
     <net code="43" name="/top/GPIO_3">
       <node ref="J4" pin="1"/>
       <node ref="J33" pin="2"/>
     </net>
     <net code="44" name="/top/GPIO_4">
-      <node ref="J33" pin="3"/>
       <node ref="J22" pin="1"/>
+      <node ref="J33" pin="3"/>
     </net>
     <net code="45" name="/top/GPIO_SPECIAL">
-      <node ref="J33" pin="4"/>
       <node ref="J15" pin="1"/>
+      <node ref="J33" pin="4"/>
     </net>
     <net code="46" name="/top/GND">
       <node ref="J27" pin="1"/>
@@ -1293,321 +1281,277 @@
       <node ref="J27" pin="2"/>
     </net>
     <net code="48" name="/top/GPIO_5">
-      <node ref="J8" pin="1"/>
       <node ref="J27" pin="3"/>
+      <node ref="J8" pin="1"/>
     </net>
-    <net code="49" name="/bottom/MIDI_OUT_EXT">
-      <node ref="J99" pin="3"/>
-      <node ref="U1" pin="26"/>
-      <node ref="MOD1" pin="17"/>
-    </net>
-    <net code="50" name="/bottom/MIDI_1_OUT">
-      <node ref="R4" pin="2"/>
+    <net code="49" name="/bottom/MIDI_1_OUT">
       <node ref="U1" pin="36"/>
       <node ref="U2" pin="2"/>
+      <node ref="R4" pin="2"/>
     </net>
-    <net code="51" name="Net-(D2-Pad1)">
-      <node ref="D2" pin="1"/>
+    <net code="50" name="Net-(D2-Pad1)">
       <node ref="R10" pin="1"/>
+      <node ref="D2" pin="1"/>
     </net>
-    <net code="52" name="Net-(D2-Pad2)">
-      <node ref="D2" pin="2"/>
+    <net code="51" name="Net-(D2-Pad2)">
       <node ref="U1" pin="35"/>
+      <node ref="D2" pin="2"/>
     </net>
-    <net code="53" name="/bottom/MIDI_IN_EXT">
-      <node ref="U1" pin="27"/>
-      <node ref="J99" pin="2"/>
-      <node ref="MOD1" pin="18"/>
-    </net>
-    <net code="54" name="/bottom/5V">
-      <node ref="U2" pin="14"/>
-      <node ref="C1" pin="2"/>
-      <node ref="C4" pin="1"/>
-      <node ref="J98" pin="4"/>
-      <node ref="R2" pin="2"/>
-      <node ref="U4" pin="3"/>
-      <node ref="U1" pin="48"/>
-      <node ref="J99" pin="1"/>
-    </net>
-    <net code="55" name="Net-(MOD1-Pad13)">
-      <node ref="MOD1" pin="13"/>
-    </net>
-    <net code="56" name="Net-(MOD1-Pad9)">
-      <node ref="MOD1" pin="9"/>
-    </net>
-    <net code="57" name="Net-(MOD1-Pad32)">
-      <node ref="MOD1" pin="32"/>
-    </net>
-    <net code="58" name="Net-(MOD1-Pad22)">
-      <node ref="MOD1" pin="22"/>
-    </net>
-    <net code="59" name="Net-(MOD1-Pad12)">
-      <node ref="MOD1" pin="12"/>
-    </net>
-    <net code="60" name="Net-(MOD1-Pad31)">
-      <node ref="MOD1" pin="31"/>
-    </net>
-    <net code="61" name="Net-(MOD1-Pad21)">
-      <node ref="MOD1" pin="21"/>
-    </net>
-    <net code="62" name="Net-(MOD1-Pad11)">
-      <node ref="MOD1" pin="11"/>
-    </net>
-    <net code="63" name="Net-(MOD1-Pad30)">
-      <node ref="MOD1" pin="30"/>
-    </net>
-    <net code="64" name="Net-(MOD1-Pad20)">
-      <node ref="MOD1" pin="20"/>
-    </net>
-    <net code="65" name="Net-(MOD1-Pad10)">
-      <node ref="MOD1" pin="10"/>
-    </net>
-    <net code="66" name="Net-(MOD1-Pad8)">
-      <node ref="MOD1" pin="8"/>
-    </net>
-    <net code="67" name="Net-(MOD1-Pad7)">
-      <node ref="MOD1" pin="7"/>
-    </net>
-    <net code="68" name="Net-(MOD1-Pad6)">
-      <node ref="MOD1" pin="6"/>
-    </net>
-    <net code="69" name="Net-(MOD1-Pad5)">
-      <node ref="MOD1" pin="5"/>
-    </net>
-    <net code="70" name="Net-(MOD1-Pad4)">
-      <node ref="MOD1" pin="4"/>
-    </net>
-    <net code="71" name="/bottom/3.3V_ESP32">
-      <node ref="MOD1" pin="2"/>
-      <node ref="MOD1" pin="3"/>
-      <node ref="C6" pin="1"/>
-      <node ref="C5" pin="1"/>
-      <node ref="C7" pin="1"/>
-      <node ref="R11" pin="2"/>
-      <node ref="U4" pin="2"/>
-    </net>
-    <net code="72" name="Net-(U3-Pad3)">
-      <node ref="U3" pin="3"/>
-    </net>
-    <net code="73" name="Net-(D1-Pad1)">
-      <node ref="U3" pin="1"/>
-      <node ref="R7" pin="2"/>
-      <node ref="D1" pin="1"/>
-    </net>
-    <net code="74" name="Net-(C3-Pad2)">
-      <node ref="S1" pin="3"/>
-      <node ref="R11" pin="1"/>
-      <node ref="MOD1" pin="25"/>
-      <node ref="C3" pin="2"/>
-    </net>
-    <net code="75" name="Net-(MOD1-Pad36)">
-      <node ref="MOD1" pin="36"/>
-    </net>
-    <net code="76" name="Net-(MOD1-Pad29)">
-      <node ref="MOD1" pin="29"/>
-    </net>
-    <net code="77" name="Net-(MOD1-Pad19)">
-      <node ref="MOD1" pin="19"/>
-    </net>
-    <net code="78" name="Net-(MOD1-Pad28)">
-      <node ref="MOD1" pin="28"/>
-    </net>
-    <net code="79" name="Net-(MOD1-Pad37)">
-      <node ref="MOD1" pin="37"/>
-    </net>
-    <net code="80" name="Net-(MOD1-Pad27)">
-      <node ref="MOD1" pin="27"/>
-    </net>
-    <net code="81" name="Net-(MOD1-Pad26)">
-      <node ref="MOD1" pin="26"/>
-    </net>
-    <net code="82" name="Net-(MOD1-Pad16)">
-      <node ref="MOD1" pin="16"/>
-    </net>
-    <net code="83" name="/bottom/ESP32_TX">
-      <node ref="MOD1" pin="35"/>
-      <node ref="J98" pin="2"/>
-    </net>
-    <net code="84" name="/bottom/ESP32_RX">
-      <node ref="MOD1" pin="34"/>
-      <node ref="J98" pin="3"/>
-    </net>
-    <net code="85" name="Net-(MOD1-Pad24)">
-      <node ref="MOD1" pin="24"/>
-    </net>
-    <net code="86" name="Net-(MOD1-Pad14)">
-      <node ref="MOD1" pin="14"/>
-    </net>
-    <net code="87" name="Net-(MOD1-Pad33)">
-      <node ref="MOD1" pin="33"/>
-    </net>
-    <net code="88" name="Net-(MOD1-Pad23)">
-      <node ref="MOD1" pin="23"/>
-    </net>
-    <net code="89" name="/bottom/H_USB_5V">
-      <node ref="J70" pin="1"/>
-      <node ref="U1" pin="55"/>
-    </net>
-    <net code="90" name="/bottom/MIDI_1_IN">
-      <node ref="U3" pin="4"/>
-      <node ref="U1" pin="37"/>
-      <node ref="R8" pin="2"/>
-    </net>
-    <net code="91" name="/bottom/H_USB_D-">
-      <node ref="J70" pin="2"/>
-      <node ref="U1" pin="56"/>
-    </net>
-    <net code="92" name="Net-(J40-Pad4)">
-      <node ref="R7" pin="1"/>
-      <node ref="J40" pin="4"/>
-    </net>
-    <net code="93" name="Net-(D1-Pad2)">
-      <node ref="U3" pin="2"/>
-      <node ref="J40" pin="5"/>
-      <node ref="D1" pin="2"/>
-    </net>
-    <net code="94" name="Net-(J0-Pad3)">
-      <node ref="J0" pin="3"/>
-    </net>
-    <net code="95" name="Net-(U1-Pad15)">
-      <node ref="U1" pin="15"/>
-    </net>
-    <net code="96" name="Net-(U1-Pad10)">
-      <node ref="U1" pin="10"/>
-    </net>
-    <net code="97" name="/bottom/SYNC_OUT">
-      <node ref="J0" pin="2"/>
-      <node ref="U1" pin="29"/>
-    </net>
-    <net code="98" name="/bottom/H_USB_D+">
-      <node ref="U1" pin="57"/>
-      <node ref="J70" pin="3"/>
-    </net>
-    <net code="99" name="Net-(U2-Pad10)">
-      <node ref="U2" pin="10"/>
-    </net>
-    <net code="100" name="/bottom/MIDI_1_BUF_OUT">
+    <net code="52" name="/bottom/MIDI_1_BUF_OUT">
       <node ref="R3" pin="2"/>
       <node ref="U2" pin="3"/>
     </net>
-    <net code="101" name="Net-(U2-Pad11)">
+    <net code="53" name="Net-(J90-Pad5)">
+      <node ref="J90" pin="5"/>
+      <node ref="R3" pin="1"/>
+    </net>
+    <net code="54" name="/bottom/MIDI_1_IN">
+      <node ref="R8" pin="2"/>
+      <node ref="U1" pin="37"/>
+      <node ref="U3" pin="4"/>
+    </net>
+    <net code="55" name="Net-(U3-Pad3)">
+      <node ref="U3" pin="3"/>
+    </net>
+    <net code="56" name="Net-(U5-Pad4)">
+      <node ref="U5" pin="4"/>
+    </net>
+    <net code="57" name="/bottom/3.3V_ESP32">
+      <node ref="C6" pin="1"/>
+      <node ref="U5" pin="2"/>
+      <node ref="R11" pin="2"/>
+      <node ref="U4" pin="2"/>
+      <node ref="U5" pin="1"/>
+      <node ref="D4" pin="2"/>
+      <node ref="C5" pin="1"/>
+      <node ref="C7" pin="1"/>
+    </net>
+    <net code="58" name="Net-(U5-Pad8)">
+      <node ref="U5" pin="8"/>
+    </net>
+    <net code="59" name="Net-(D5-Pad2)">
+      <node ref="D5" pin="2"/>
+      <node ref="U5" pin="7"/>
+    </net>
+    <net code="60" name="Net-(U5-Pad6)">
+      <node ref="U5" pin="6"/>
+    </net>
+    <net code="61" name="Net-(U5-Pad5)">
+      <node ref="U5" pin="5"/>
+    </net>
+    <net code="62" name="Net-(U5-Pad3)">
+      <node ref="U5" pin="3"/>
+    </net>
+    <net code="63" name="Net-(C3-Pad2)">
+      <node ref="C3" pin="2"/>
+      <node ref="R11" pin="1"/>
+      <node ref="S1" pin="3"/>
+      <node ref="U5" pin="18"/>
+    </net>
+    <net code="64" name="Net-(U5-Pad17)">
+      <node ref="U5" pin="17"/>
+    </net>
+    <net code="65" name="Net-(U5-Pad16)">
+      <node ref="U5" pin="16"/>
+    </net>
+    <net code="66" name="Net-(U5-Pad15)">
+      <node ref="U5" pin="15"/>
+    </net>
+    <net code="67" name="Net-(D4-Pad1)">
+      <node ref="D4" pin="1"/>
+      <node ref="R12" pin="2"/>
+    </net>
+    <net code="68" name="Net-(D5-Pad1)">
+      <node ref="D5" pin="1"/>
+      <node ref="R13" pin="1"/>
+    </net>
+    <net code="69" name="/bottom/MIDI_IN_EXT">
+      <node ref="J99" pin="2"/>
+      <node ref="U1" pin="27"/>
+      <node ref="U5" pin="12"/>
+    </net>
+    <net code="70" name="Net-(J96-Pad3)">
+      <node ref="U5" pin="13"/>
+      <node ref="J96" pin="3"/>
+    </net>
+    <net code="71" name="Net-(J96-Pad2)">
+      <node ref="J96" pin="2"/>
+      <node ref="U5" pin="14"/>
+    </net>
+    <net code="72" name="/bottom/MIDI_OUT_EXT">
+      <node ref="U1" pin="26"/>
+      <node ref="J99" pin="3"/>
+      <node ref="U5" pin="11"/>
+    </net>
+    <net code="73" name="Net-(U5-Pad10)">
+      <node ref="U5" pin="10"/>
+    </net>
+    <net code="74" name="Net-(J40-Pad4)">
+      <node ref="J40" pin="4"/>
+      <node ref="R7" pin="1"/>
+    </net>
+    <net code="75" name="Net-(D1-Pad2)">
+      <node ref="J40" pin="5"/>
+      <node ref="D1" pin="2"/>
+      <node ref="U3" pin="2"/>
+    </net>
+    <net code="76" name="Net-(U1-Pad15)">
+      <node ref="U1" pin="15"/>
+    </net>
+    <net code="77" name="Net-(U1-Pad10)">
+      <node ref="U1" pin="10"/>
+    </net>
+    <net code="78" name="Net-(J0-Pad3)">
+      <node ref="J0" pin="3"/>
+    </net>
+    <net code="79" name="/bottom/SYNC_OUT">
+      <node ref="J0" pin="2"/>
+      <node ref="U1" pin="29"/>
+    </net>
+    <net code="80" name="/bottom/H_USB_D+">
+      <node ref="J70" pin="3"/>
+      <node ref="U1" pin="57"/>
+    </net>
+    <net code="81" name="/bottom/H_USB_D-">
+      <node ref="U1" pin="56"/>
+      <node ref="J70" pin="2"/>
+    </net>
+    <net code="82" name="/bottom/H_USB_5V">
+      <node ref="U1" pin="55"/>
+      <node ref="J70" pin="1"/>
+    </net>
+    <net code="83" name="Net-(U2-Pad10)">
+      <node ref="U2" pin="10"/>
+    </net>
+    <net code="84" name="Net-(U2-Pad11)">
       <node ref="U2" pin="11"/>
     </net>
-    <net code="102" name="Net-(U2-Pad8)">
+    <net code="85" name="Net-(U2-Pad8)">
       <node ref="U2" pin="8"/>
     </net>
-    <net code="103" name="Net-(J40-Pad3)">
+    <net code="86" name="Net-(J40-Pad3)">
       <node ref="J40" pin="3"/>
     </net>
-    <net code="104" name="Net-(J40-Pad2)">
+    <net code="87" name="Net-(J40-Pad2)">
       <node ref="J40" pin="2"/>
     </net>
-    <net code="105" name="Net-(J40-Pad1)">
+    <net code="88" name="Net-(J40-Pad1)">
       <node ref="J40" pin="1"/>
     </net>
-    <net code="106" name="Net-(U2-Pad9)">
+    <net code="89" name="Net-(U2-Pad9)">
       <node ref="U2" pin="9"/>
     </net>
-    <net code="107" name="Net-(U1-Pad20)">
-      <node ref="U1" pin="20"/>
-    </net>
-    <net code="108" name="Net-(U2-Pad6)">
+    <net code="90" name="Net-(U2-Pad6)">
       <node ref="U2" pin="6"/>
     </net>
-    <net code="109" name="Net-(U2-Pad5)">
+    <net code="91" name="Net-(U2-Pad5)">
       <node ref="U2" pin="5"/>
     </net>
-    <net code="110" name="Net-(U2-Pad4)">
+    <net code="92" name="Net-(U2-Pad4)">
       <node ref="U2" pin="4"/>
     </net>
-    <net code="111" name="Net-(U2-Pad13)">
+    <net code="93" name="Net-(U2-Pad13)">
       <node ref="U2" pin="13"/>
     </net>
-    <net code="112" name="Net-(U2-Pad12)">
+    <net code="94" name="Net-(U2-Pad12)">
       <node ref="U2" pin="12"/>
     </net>
-    <net code="113" name="Net-(U1-Pad2)">
-      <node ref="U1" pin="2"/>
-    </net>
-    <net code="114" name="Net-(U1-Pad4)">
-      <node ref="U1" pin="4"/>
-    </net>
-    <net code="115" name="Net-(U1-Pad3)">
+    <net code="95" name="Net-(U1-Pad3)">
       <node ref="U1" pin="3"/>
     </net>
-    <net code="116" name="Net-(U1-Pad9)">
+    <net code="96" name="Net-(U1-Pad2)">
+      <node ref="U1" pin="2"/>
+    </net>
+    <net code="97" name="Net-(U1-Pad9)">
       <node ref="U1" pin="9"/>
     </net>
-    <net code="117" name="Net-(U1-Pad67)">
+    <net code="98" name="Net-(U1-Pad67)">
       <node ref="U1" pin="67"/>
     </net>
-    <net code="118" name="Net-(U1-Pad66)">
+    <net code="99" name="Net-(U1-Pad66)">
       <node ref="U1" pin="66"/>
     </net>
-    <net code="119" name="Net-(U1-Pad65)">
+    <net code="100" name="Net-(U1-Pad65)">
       <node ref="U1" pin="65"/>
     </net>
-    <net code="120" name="Net-(U1-Pad63)">
+    <net code="101" name="Net-(U1-Pad63)">
       <node ref="U1" pin="63"/>
     </net>
-    <net code="121" name="Net-(U1-Pad62)">
+    <net code="102" name="Net-(U1-Pad62)">
       <node ref="U1" pin="62"/>
     </net>
-    <net code="122" name="Net-(J90-Pad5)">
-      <node ref="R3" pin="1"/>
-      <node ref="J90" pin="5"/>
-    </net>
-    <net code="123" name="Net-(U1-Pad61)">
+    <net code="103" name="Net-(U1-Pad61)">
       <node ref="U1" pin="61"/>
     </net>
-    <net code="124" name="Net-(J90-Pad4)">
-      <node ref="J90" pin="4"/>
-      <node ref="R2" pin="1"/>
-    </net>
-    <net code="125" name="Net-(J90-Pad3)">
-      <node ref="J90" pin="3"/>
-    </net>
-    <net code="126" name="Net-(J90-Pad1)">
-      <node ref="J90" pin="1"/>
-    </net>
-    <net code="127" name="Net-(U1-Pad30)">
-      <node ref="U1" pin="30"/>
-    </net>
-    <net code="128" name="Net-(U1-Pad28)">
-      <node ref="U1" pin="28"/>
-    </net>
-    <net code="129" name="Net-(U1-Pad25)">
-      <node ref="U1" pin="25"/>
-    </net>
-    <net code="130" name="Net-(U1-Pad24)">
-      <node ref="U1" pin="24"/>
-    </net>
-    <net code="131" name="Net-(U1-Pad21)">
-      <node ref="U1" pin="21"/>
-    </net>
-    <net code="132" name="Net-(U1-Pad51)">
-      <node ref="U1" pin="51"/>
-    </net>
-    <net code="133" name="Net-(U1-Pad60)">
+    <net code="104" name="Net-(U1-Pad60)">
       <node ref="U1" pin="60"/>
     </net>
-    <net code="134" name="Net-(U1-Pad54)">
+    <net code="105" name="Net-(D1-Pad1)">
+      <node ref="R7" pin="2"/>
+      <node ref="U3" pin="1"/>
+      <node ref="D1" pin="1"/>
+    </net>
+    <net code="106" name="/bottom/5V">
+      <node ref="C4" pin="1"/>
+      <node ref="U1" pin="48"/>
+      <node ref="J99" pin="1"/>
+      <node ref="C1" pin="2"/>
+      <node ref="U4" pin="3"/>
+      <node ref="J96" pin="4"/>
+      <node ref="U2" pin="14"/>
+      <node ref="R2" pin="2"/>
+    </net>
+    <net code="107" name="Net-(J90-Pad4)">
+      <node ref="R2" pin="1"/>
+      <node ref="J90" pin="4"/>
+    </net>
+    <net code="108" name="Net-(J90-Pad3)">
+      <node ref="J90" pin="3"/>
+    </net>
+    <net code="109" name="Net-(J90-Pad1)">
+      <node ref="J90" pin="1"/>
+    </net>
+    <net code="110" name="Net-(U1-Pad4)">
+      <node ref="U1" pin="4"/>
+    </net>
+    <net code="111" name="Net-(U1-Pad30)">
+      <node ref="U1" pin="30"/>
+    </net>
+    <net code="112" name="Net-(U1-Pad28)">
+      <node ref="U1" pin="28"/>
+    </net>
+    <net code="113" name="Net-(U1-Pad25)">
+      <node ref="U1" pin="25"/>
+    </net>
+    <net code="114" name="Net-(U1-Pad24)">
+      <node ref="U1" pin="24"/>
+    </net>
+    <net code="115" name="Net-(U1-Pad21)">
+      <node ref="U1" pin="21"/>
+    </net>
+    <net code="116" name="Net-(U1-Pad20)">
+      <node ref="U1" pin="20"/>
+    </net>
+    <net code="117" name="/bottom/3.3V">
+      <node ref="C2" pin="2"/>
+      <node ref="U3" pin="6"/>
+      <node ref="R8" pin="1"/>
+      <node ref="U1" pin="46"/>
+    </net>
+    <net code="118" name="Net-(U1-Pad54)">
       <node ref="U1" pin="54"/>
     </net>
-    <net code="135" name="Net-(U1-Pad53)">
+    <net code="119" name="Net-(U1-Pad53)">
       <node ref="U1" pin="53"/>
     </net>
-    <net code="136" name="Net-(U1-Pad50)">
+    <net code="120" name="Net-(U1-Pad51)">
+      <node ref="U1" pin="51"/>
+    </net>
+    <net code="121" name="Net-(U1-Pad50)">
       <node ref="U1" pin="50"/>
     </net>
-    <net code="137" name="Net-(U1-Pad49)">
+    <net code="122" name="Net-(U1-Pad49)">
       <node ref="U1" pin="49"/>
-    </net>
-    <net code="138" name="/bottom/3.3V">
-      <node ref="U1" pin="46"/>
-      <node ref="U3" pin="6"/>
-      <node ref="C2" pin="2"/>
-      <node ref="R8" pin="1"/>
     </net>
   </nets>
 </export>

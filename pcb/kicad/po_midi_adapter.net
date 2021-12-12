@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source C:\Users\han\Documents\github\midi-adapter-v3-hardware\pcb\kicad\po_midi_adapter.sch)
-    (date "12/9/2021 12:29:41 AM")
+    (date "12/11/2021 11:06:53 PM")
     (tool "Eeschema (5.1.10)-1")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -441,7 +441,7 @@
       (tstamp 61AFAE37))
     (comp (ref U4)
       (value LM1117-3.3)
-      (footprint Package_TO_SOT_SMD:SOT-23)
+      (footprint Package_TO_SOT_SMD:SOT-223)
       (datasheet http://www.ti.com/lit/ds/symlink/lm1117.pdf)
       (libsource (lib Regulator_Linear) (part LM1117-3.3) (description "800mA Low-Dropout Linear Regulator, 3.3V fixed output, TO-220/TO-252/TO-263/SOT-223"))
       (sheetpath (names /bottom/) (tstamps /61A9B941/))
