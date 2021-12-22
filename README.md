@@ -38,20 +38,12 @@ This repo contains both the CAD for the 3D printed cover for the Pocket Operator
 
 # Photos
 
-![Cover](https://raw.githubusercontent.com/PO-MIDI-Adapter/midi-adapter-v2-hardware/main/photos/pomav2.jpg)
+![Render](https://raw.githubusercontent.com/Hanz-Tech/midi-adapter-v3-hardware/main/photos/render.PNG)
 
-![Standalone](https://raw.githubusercontent.com/PO-MIDI-Adapter/midi-adapter-v2-hardware/main/photos/pomav2-17.jpg)
 
-![Pins](https://raw.githubusercontent.com/PO-MIDI-Adapter/midi-adapter-v2-hardware/main/photos/pomav2bottom.jpg)
-
-![With volca and beatstep](https://raw.githubusercontent.com/PO-MIDI-Adapter/midi-adapter-hardware/main/photos/beatstep.jpg "Setup")
-
-![With volca and beatstep](https://raw.githubusercontent.com/PO-MIDI-Adapter/midi-adapter-hardware/main/photos/opz.jpg "Setup")
-
-![Layout](https://raw.githubusercontent.com/PO-MIDI-Adapter/midi-adapter-v2-hardware/main/photos/layout.PNG)
 
 # BOM
-
+<!-- 
 1. 1 x PCB board
 2. 1 x 3D printed cover (Found in the cad folder)
 3. 2 x cover holders  (Found in the cad folder)
@@ -82,6 +74,6 @@ Optional
 
 |Manufacturer Part Number|Manufacturer               |Digi-Key Part Number|Quantity  |Description                   |Placement|
 |------------------------|---------------------------|--------------------|--------|--------------------------------|---------|
-|PPTC241LFBN-RC          |Sullins Connector Solutions|S7022-ND            |2       |CONN HDR 24POS 0.1 TIN PCB      |U1
+|PPTC241LFBN-RC          |Sullins Connector Solutions|S7022-ND            |2       |CONN HDR 24POS 0.1 TIN PCB      |U1 -->
 
 
