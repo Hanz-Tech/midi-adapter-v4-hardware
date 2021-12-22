@@ -2,7 +2,7 @@
 <export version="D">
   <design>
     <source>C:\Users\han\Documents\github\midi-adapter-v3-hardware\pcb\kicad\po_midi_adapter.sch</source>
-    <date>12/11/2021 11:30:02 PM</date>
+    <date>12/12/2021 11:52:58 PM</date>
     <tool>Eeschema (5.1.10)-1</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -334,7 +334,7 @@
       <tstamp>61A5E10D</tstamp>
     </comp>
     <comp ref="R4">
-      <value>10k</value>
+      <value>10K</value>
       <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Device" part="R" description="Resistor"/>
@@ -552,7 +552,7 @@
       <tstamp>61B02A1D</tstamp>
     </comp>
     <comp ref="C6">
-      <value>100nF</value>
+      <value>0.1uF</value>
       <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
