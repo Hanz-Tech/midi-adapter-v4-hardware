@@ -605,17 +605,6 @@ F 3 "~" H 8950 1250 50  0001 C CNN
 $EndComp
 Text Label 8950 1100 0    50   ~ 0
 GND
-$Comp
-L Switch:SW_Push SW1
-U 1 1 61C85F5B
-P 6150 3350
-F 0 "SW1" H 6150 3635 50  0000 C CNN
-F 1 "SW_Push" H 6150 3544 50  0000 C CNN
-F 2 "" H 6150 3550 50  0001 C CNN
-F 3 "~" H 6150 3550 50  0001 C CNN
-	1    6150 3350
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	7600 2750 7450 2750
 Connection ~ 7450 2750
