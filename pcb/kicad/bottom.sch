@@ -606,30 +606,6 @@ $EndComp
 Text Label 8950 1100 0    50   ~ 0
 GND
 $Comp
-L Device:LED D5
-U 1 1 61B55875
-P 7450 4050
-F 0 "D5" H 7450 4200 50  0000 C CNN
-F 1 "LED" H 7450 4300 50  0000 C CNN
-F 2 "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 7450 4050 50  0001 C CNN
-F 3 "~" H 7450 4050 50  0001 C CNN
-	1    7450 4050
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R R13
-U 1 1 61B564B7
-P 7150 4050
-F 0 "R13" V 7250 3950 50  0000 L CNN
-F 1 "50" V 7150 4000 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 7080 4050 50  0001 C CNN
-F 3 "~" H 7150 4050 50  0001 C CNN
-	1    7150 4050
-	0    1    1    0   
-$EndComp
-Text Label 7000 4050 2    50   ~ 0
-GND
-$Comp
 L Switch:SW_Push SW1
 U 1 1 61C85F5B
 P 6150 3350
@@ -692,6 +668,49 @@ F 1 "ESP32-C3-WROOM-02" H 8675 5024 50  0000 C CNN
 F 2 "Espressif:ESP32-C3-WROOM-02" H 8650 2400 50  0001 C CNN
 F 3 "https://www.espressif.com/sites/default/files/documentation/esp32-c3-wroom-02_datasheet_en.pdf" H 6200 2400 50  0001 C CNN
 	1    8650 3700
+	1    0    0    -1  
+$EndComp
+Text Label 7000 4150 2    50   ~ 0
+3.3V_ESP32
+$Comp
+L Device:R R14
+U 1 1 61DD5F1D
+P 7150 4150
+F 0 "R14" V 7250 4050 50  0000 L CNN
+F 1 "10K" V 7150 4100 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 7080 4150 50  0001 C CNN
+F 3 "~" H 7150 4150 50  0001 C CNN
+	1    7150 4150
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	7300 4150 7400 4150
+Wire Wire Line
+	7400 4150 7400 4050
+Wire Wire Line
+	7400 4050 7600 4050
+Text Label 6850 3050 2    50   ~ 0
+GND
+$Comp
+L Device:R R13
+U 1 1 61B564B7
+P 7000 3050
+F 0 "R13" V 7100 2950 50  0000 L CNN
+F 1 "50" V 7000 3000 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 6930 3050 50  0001 C CNN
+F 3 "~" H 7000 3050 50  0001 C CNN
+	1    7000 3050
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:LED D5
+U 1 1 61B55875
+P 7300 3050
+F 0 "D5" H 7300 3150 50  0000 C CNN
+F 1 "LED" H 7300 2900 50  0000 C CNN
+F 2 "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 7300 3050 50  0001 C CNN
+F 3 "~" H 7300 3050 50  0001 C CNN
+	1    7300 3050
 	1    0    0    -1  
 $EndComp
 $EndSCHEMATC
