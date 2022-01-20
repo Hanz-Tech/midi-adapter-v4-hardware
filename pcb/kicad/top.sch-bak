@@ -312,17 +312,6 @@ F 3 "~" H 5200 3050 50  0001 C CNN
 	1    5200 3050
 	1    0    0    -1  
 $EndComp
-$Comp
-L Connector_Generic:Conn_01x01 J31
-U 1 1 61A5E10D
-P 5200 3300
-F 0 "J31" H 5280 3342 50  0000 L CNN
-F 1 "Conn_01x01" H 5280 3251 50  0000 L CNN
-F 2 "Connector_Pin:Pin_D1.0mm_L10.0mm" H 5200 3300 50  0001 C CNN
-F 3 "~" H 5200 3300 50  0001 C CNN
-	1    5200 3300
-	1    0    0    -1  
-$EndComp
 Text HLabel 6300 3950 0    50   Output ~ 0
 GPIO_SOUND
 Text HLabel 6300 4150 0    50   Output ~ 0
@@ -337,8 +326,6 @@ Text HLabel 6300 1950 0    50   Output ~ 0
 GPIO_5
 Text HLabel 6300 2150 0    50   Output ~ 0
 GPIO_6
-Text HLabel 5000 3300 0    50   Output ~ 0
-GND
 Text HLabel 4350 2500 0    50   Output ~ 0
 GPIO_SPECIAL
 Text HLabel 6300 4550 0    50   Output ~ 0

@@ -272,9 +272,9 @@ Text Label 1800 5950 0    50   ~ 0
 MIDI_1_BUF_OUT
 Wire Wire Line
 	1900 1450 1900 1550
-Text Label 4100 3150 0    50   ~ 0
-MIDI_IN_EXT
 Text Label 4100 3250 0    50   ~ 0
+MIDI_IN_EXT
+Text Label 4100 3150 0    50   ~ 0
 MIDI_OUT_EXT
 Text Label 1000 2300 3    50   ~ 0
 GND
@@ -553,8 +553,6 @@ Wire Wire Line
 	7600 2850 7600 2750
 Wire Wire Line
 	7450 3050 7600 3050
-Text Label 10050 3250 2    50   ~ 0
-5V
 Wire Wire Line
 	10050 3450 9750 3450
 Wire Wire Line
