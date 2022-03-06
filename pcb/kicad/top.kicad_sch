@@ -4,6 +4,12 @@
 
   (paper "A4")
 
+  (title_block
+    (title "Pocket Operator MIDI Adapter")
+    (rev "3.3")
+    (company "Hanz Tech Inc")
+  )
+
   (lib_symbols
     (symbol "Connector_Generic:Conn_01x01" (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
       (property "Reference" "J" (id 0) (at 0 2.54 0)
