@@ -6,7 +6,7 @@
 
   (title_block
     (title "Pocket Operator MIDI Adapter")
-    (rev "3.3")
+    (rev "3.4")
     (company "Hanz Tech Inc")
   )
 
@@ -1001,9 +1001,6 @@
     (path "/00000000-0000-0000-0000-000061a9b941/00000000-0000-0000-0000-00005c8cd867"
       (reference "R3") (unit 1) (value "220") (footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder")
     )
-    (path "/00000000-0000-0000-0000-000061a9b941/00000000-0000-0000-0000-00005c91ea71"
-      (reference "R4") (unit 1) (value "10K") (footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder")
-    )
     (path "/00000000-0000-0000-0000-000061a9b941/00000000-0000-0000-0000-00005e741484"
       (reference "R7") (unit 1) (value "220") (footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder")
     )
@@ -1011,10 +1008,7 @@
       (reference "R8") (unit 1) (value "470") (footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder")
     )
     (path "/00000000-0000-0000-0000-000061a9b941/00000000-0000-0000-0000-000061afae37"
-      (reference "R10") (unit 1) (value "50") (footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder")
-    )
-    (path "/00000000-0000-0000-0000-000061a9b941/00000000-0000-0000-0000-000061aef4ce"
-      (reference "R11") (unit 1) (value "10K") (footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder")
+      (reference "R10") (unit 1) (value "68") (footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder")
     )
     (path "/00000000-0000-0000-0000-000061a9b941/be4921a6-4b29-4bfa-a770-019578841431"
       (reference "R12") (unit 1) (value "10K") (footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder")
@@ -1028,8 +1022,8 @@
     (path "/00000000-0000-0000-0000-000061a9b941/00000000-0000-0000-0000-00005f1031ea"
       (reference "U1") (unit 1) (value "Teensy4.1") (footprint "Teensy:Teensy41_poma")
     )
-    (path "/00000000-0000-0000-0000-000061a9b941/00000000-0000-0000-0000-00005c900a66"
-      (reference "U2") (unit 1) (value "SN74HC125N") (footprint "Package_DIP:DIP-14_W7.62mm")
+    (path "/00000000-0000-0000-0000-000061a9b941/06600698-ccab-45cf-ba92-8e98b21720b1"
+      (reference "U2") (unit 1) (value "SN74LVC1G07DBVR") (footprint "digikey-footprints:SOT-753")
     )
     (path "/00000000-0000-0000-0000-000061a9b941/00000000-0000-0000-0000-00005e732c8b"
       (reference "U3") (unit 1) (value "H11L1M") (footprint "Package_DIP:DIP-6_W7.62mm")

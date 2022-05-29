@@ -5,13 +5,13 @@
       "Application": "Pcbnew",
       "Version": "(6.0.2)"
     },
-    "CreationDate": "2022-03-04T10:51:53-05:00"
+    "CreationDate": "2022-05-28T15:24:10-04:00"
   },
   "GeneralSpecs": {
     "ProjectId": {
       "Name": "bottom",
       "GUID": "626f7474-6f6d-42e6-9b69-6361645f7063",
-      "Revision": "rev?"
+      "Revision": "3.4"
     },
     "Size": {
       "X": 75.362,
@@ -24,12 +24,12 @@
   "DesignRules": [
     {
       "Layers": "Outer",
-      "PadToPad": 0.0,
-      "PadToTrack": 0.0,
+      "PadToPad": 0.25,
+      "PadToTrack": 0.25,
       "TrackToTrack": 0.25,
       "MinLineWidth": 0.25,
-      "TrackToRegion": 0.25,
-      "RegionToRegion": 0.25
+      "TrackToRegion": 0.3,
+      "RegionToRegion": 0.3
     }
   ],
   "FilesAttributes": [

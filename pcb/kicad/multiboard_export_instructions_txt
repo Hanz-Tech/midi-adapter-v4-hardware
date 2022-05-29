@@ -1,6 +1,0 @@
-
-kikit separate --source 'rectangle; tlx: 36.374mm; tly: 52.56mm; brx: 115.07mm; bry: 119.86mm' ./po_midi_adapter.kicad_pcb top.kicad_pcb
-
-kikit separate --source 'rectangle; tlx: 119.37mm; tly: 32.6mm; brx: 206.474mm; bry: 113.56mm' ./po_midi_adapter.kicad_pcb bottom.kicad_pcb
-
-kikit stencil create  --jigsize 100 100 bottom.kicad_pcb export
