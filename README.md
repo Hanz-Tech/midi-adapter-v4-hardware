@@ -3,10 +3,12 @@
 
 Buy it Here 
 
+
+<a href="https://hanztechnology.com/shop"><img src="https://hanztechnology.com/logo.svg" alt="https://hanztechnology.com/shop" width="150" height="78"></a>
+
+OR
+
 <a href="https://www.tindie.com/stores/hanztech/?ref=offsite_badges&utm_source=sellers_bobthesheep&utm_medium=badges&utm_campaign=badge_medium"><img src="https://d2ss6ovg47m0r5.cloudfront.net/badges/tindie-mediums.png" alt="I sell on Tindie" width="150" height="78"></a>
-
-[Etsy](https://www.etsy.com/ca/HanzTechInc/listing/979132858/pocket-operator-midi-adapter-v2)
-
 
 # Disclaimer
 
@@ -34,14 +36,17 @@ This repo contains both the CAD for the 3D printed cover for the Pocket Operator
 
 ## For assmebly instruction please go to the [wiki](https://github.com/PO-MIDI-Adapter/midi-adapter-hardware/wiki)
 
-[![PO-MA](https://raw.githubusercontent.com/PO-MIDI-Adapter/midi-adapter-hardware/master/photos/title.jpg)](https://www.youtube.com/watch?v=iIQ18DAJAU0 "PO-MA")
+[![PO-MA](https://raw.githubusercontent.com/Hanz-Tech/midi-adapter-v3-software/master/pictures/title.png)](https://www.youtube.com/watch?v=n_peiBfl6JI "PO-MA")
 
 # Photos
 
 ![Render](https://raw.githubusercontent.com/Hanz-Tech/midi-adapter-v3-hardware/main/photos/render.PNG)
 
+![1](https://raw.githubusercontent.com/Hanz-Tech/midi-adapter-v3-software/master/pictures/show/DSC_1794-3.png)
 
+![2](https://raw.githubusercontent.com/Hanz-Tech/midi-adapter-v3-software/master/pictures/show/DSC_1800-5.png)
 
+![3](https://raw.githubusercontent.com/Hanz-Tech/midi-adapter-v3-software/master/pictures/show/THZ_1836-Edit.jpg)
 # BOM
 <!-- 
 1. 1 x PCB board
