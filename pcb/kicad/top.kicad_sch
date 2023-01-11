@@ -144,6 +144,10 @@
     (uuid faa6897f-cf94-4127-8528-0b0e3e8c887e)
   )
 
+  (hierarchical_label "POT_VOL_OUT" (shape input) (at 104.14 90.17 0)
+    (effects (font (size 1.27 1.27)) (justify left))
+    (uuid 02aa3d47-16b0-4781-bcda-ebace6d4069b)
+  )
   (hierarchical_label "GIPO_PATTERN" (shape output) (at 160.02 105.41 180)
     (effects (font (size 1.27 1.27)) (justify right))
     (uuid 041f620b-d77d-499b-a7f1-95ab5d99b933)
