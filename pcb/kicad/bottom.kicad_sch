@@ -4805,7 +4805,7 @@
     (property "Reference" "C36" (id 0) (at 255.27 106.68 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "10uF" (id 1) (at 255.27 110.49 90)
+    (property "Value" "10uF" (id 1) (at 252.73 106.68 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "Capacitor_SMD:C_0402_1005Metric" (id 2) (at 257.81 109.22 0)

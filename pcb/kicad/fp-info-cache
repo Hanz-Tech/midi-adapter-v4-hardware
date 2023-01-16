@@ -1,4 +1,4 @@
-14741982844670
+21649188764431
 poma
 3.5mm_stereo_jack_PJ320B
 
@@ -42,6 +42,20 @@ MODULE_ESP32-WROOM-32D
 59
 59
 poma
+SolderJumper-2_P1.3mm_Open_Pad1.0x1.5mm
+SMD Solder Jumper, 1x1.5mm Pads, 0.3mm gap, open
+solder jumper open
+0
+2
+2
+poma
+SolderJumper-3_P1.3mm_Open_Pad1.0x1.5mm
+SMD Solder 3-pad Jumper, 1x1.5mm Pads, 0.3mm gap, open
+solder jumper open
+0
+3
+3
+poma
 TACTILE_SWITCH_SMD_5.2MM
 <h3>Momentary Switch (Pushbutton) - SPST - SMD, 5.2mm Square</h3>{return}<p>Normally-open (NO) SPST momentary switches (buttons, pushbuttons).</p>{return}<p><a href="https://www.sparkfun.com/datasheets/Components/Buttons/SMD-Button.pdf">Dimensional Drawing</a></p>
 
@@ -55,6 +69,20 @@ TE_292303-1
 0
 6
 6
+poma
+TLV320AIC3106IRGZR
+
+
+0
+49
+49
+poma
+TLV320AIC3204IRHBR
+
+
+0
+33
+33
 poma
 Teensy41_poma
 
