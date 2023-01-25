@@ -982,7 +982,7 @@
       (reference "C38") (unit 1) (value "0.1uF") (footprint "Capacitor_SMD:C_0402_1005Metric")
     )
     (path "/00000000-0000-0000-0000-000061a9b941/00000000-0000-0000-0000-00005e7517a3"
-      (reference "D1") (unit 1) (value "1N914") (footprint "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal")
+      (reference "D1") (unit 1) (value "1N4148") (footprint "poma:SOD-123")
     )
     (path "/00000000-0000-0000-0000-000061a9b941/00000000-0000-0000-0000-000061af8e2c"
       (reference "D2") (unit 1) (value "LED") (footprint "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder")
@@ -1177,7 +1177,7 @@
       (reference "U2") (unit 1) (value "SN74LVC1G07DBVR") (footprint "digikey-footprints:SOT-753")
     )
     (path "/00000000-0000-0000-0000-000061a9b941/00000000-0000-0000-0000-00005e732c8b"
-      (reference "U3") (unit 1) (value "H11L1M") (footprint "Package_DIP:DIP-6_W7.62mm")
+      (reference "U3") (unit 1) (value "H11L1S") (footprint "poma:IC_H11L1SM")
     )
     (path "/00000000-0000-0000-0000-000061a9b941/00000000-0000-0000-0000-000061afdd18"
       (reference "U5") (unit 1) (value "ESP32-C3-WROOM-02") (footprint "Espressif:ESP32-C3-WROOM-02")
