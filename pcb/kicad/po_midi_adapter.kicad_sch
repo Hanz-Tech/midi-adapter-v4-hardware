@@ -1110,6 +1110,9 @@
     (path "/00000000-0000-0000-0000-000061a9b941/8b8b8a74-a2e2-4f42-a41d-54f6c660a145"
       (reference "JP1") (unit 1) (value "Jumper") (footprint "Jumper:SolderJumper-2_P1.3mm_Open_Pad1.0x1.5mm")
     )
+    (path "/00000000-0000-0000-0000-000061a9b941/7679e634-d3b4-4b73-98a5-b30df7e822b3"
+      (reference "JP2") (unit 1) (value "Jumper") (footprint "Jumper:SolderJumper-2_P1.3mm_Open_Pad1.0x1.5mm")
+    )
     (path "/00000000-0000-0000-0000-000061a9b941/00000000-0000-0000-0000-00005c41f4c1"
       (reference "R2") (unit 1) (value "220") (footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder")
     )
