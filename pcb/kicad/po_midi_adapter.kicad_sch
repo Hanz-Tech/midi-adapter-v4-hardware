@@ -734,13 +734,21 @@
       (effects (font (size 1.27 1.27)) (justify right))
       (uuid 83b3f216-9eab-4f45-b483-3fc7b44ebb56)
     )
-    (pin "POT_VOL_OUT" input (at 109.22 101.6 0)
+    (pin "3.3V" input (at 109.22 76.2 0)
       (effects (font (size 1.27 1.27)) (justify right))
-      (uuid 34f61400-9fae-4b50-af38-adb14e6aa5c2)
+      (uuid 5c2c11b7-3cbe-4648-a734-e7944164ca82)
     )
-    (pin "POT_GAIN_IN" input (at 109.22 88.9 0)
+    (pin "POT_GAIN_IN" input (at 109.22 78.74 0)
       (effects (font (size 1.27 1.27)) (justify right))
-      (uuid 2a547bcc-14ea-4054-80f2-4ab7268e3fdc)
+      (uuid 6f7394d1-3bec-4ec3-b3e3-0053402774e1)
+    )
+    (pin "POT_VOL_OUT" input (at 109.22 88.9 0)
+      (effects (font (size 1.27 1.27)) (justify right))
+      (uuid 4bf5525b-2241-42ed-b738-2ce4cc9464dd)
+    )
+    (pin "POT_INPUT_PLAY_MIX" input (at 109.22 101.6 0)
+      (effects (font (size 1.27 1.27)) (justify right))
+      (uuid 43fd41f6-7289-4576-9df5-6fe5b225c01e)
     )
   )
 
@@ -850,13 +858,21 @@
       (effects (font (size 1.27 1.27)) (justify left))
       (uuid 84214198-0d9d-48d0-acd1-418cf462c682)
     )
-    (pin "POT_VOL_OUT" output (at 176.53 102.87 180)
+    (pin "POT_VOL_OUT" input (at 176.53 90.17 180)
       (effects (font (size 1.27 1.27)) (justify left))
-      (uuid d7ba9642-5a8e-46b2-a465-a6a6b8980499)
+      (uuid 3d2df01b-b6f8-4c28-a499-5e45c0dc94ff)
     )
-    (pin "POT_GAIN_IN" input (at 176.53 90.17 180)
+    (pin "POT_GAIN_IN" input (at 176.53 78.74 180)
       (effects (font (size 1.27 1.27)) (justify left))
-      (uuid 76b97cf6-c59f-46c8-a2e3-dd4110abb825)
+      (uuid 8db6a6c5-932e-4357-b681-4cdd237dba3c)
+    )
+    (pin "POT_INPUT_PLAY_MIX" input (at 176.53 102.87 180)
+      (effects (font (size 1.27 1.27)) (justify left))
+      (uuid cf8c1c04-ea2d-47db-af9b-f632a141b39e)
+    )
+    (pin "3.3V" output (at 176.53 76.2 180)
+      (effects (font (size 1.27 1.27)) (justify left))
+      (uuid f22bf23b-e06d-4893-806e-fb2e3b82c62a)
     )
   )
 
@@ -902,12 +918,6 @@
     )
     (path "/00000000-0000-0000-0000-000061a9b941/bcea4b90-ab27-4620-81d9-a64471cb52ad"
       (reference "C12") (unit 1) (value "2.2uF") (footprint "Capacitor_SMD:C_0402_1005Metric")
-    )
-    (path "/00000000-0000-0000-0000-000061a9b941/733e4790-ce16-45ca-9350-cdc78b0917f3"
-      (reference "C13") (unit 1) (value "2.2uF") (footprint "Capacitor_SMD:C_0402_1005Metric")
-    )
-    (path "/00000000-0000-0000-0000-000061a9b941/b5610f33-cdd7-4636-bac9-a9d56e39f89f"
-      (reference "C14") (unit 1) (value "2.2uF") (footprint "Capacitor_SMD:C_0402_1005Metric")
     )
     (path "/00000000-0000-0000-0000-000061a9b941/1d9864b1-db4d-4370-ae2e-f82b499b7ac9"
       (reference "C15") (unit 1) (value "10uF") (footprint "Capacitor_SMD:C_0402_1005Metric")
@@ -987,12 +997,6 @@
     (path "/00000000-0000-0000-0000-000061a9b941/00000000-0000-0000-0000-000061af8e2c"
       (reference "D2") (unit 1) (value "LED") (footprint "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder")
     )
-    (path "/00000000-0000-0000-0000-000061a9b941/3ca1a533-c429-4e93-a877-097cf953c497"
-      (reference "H2") (unit 1) (value "MountingHole_Pad") (footprint "MountingHole:MountingHole_2.7mm_M2.5_ISO7380_Pad")
-    )
-    (path "/00000000-0000-0000-0000-000061a9b941/9bd5f81f-c490-45d8-a723-aec44afe60f3"
-      (reference "H3") (unit 1) (value "MountingHole_Pad") (footprint "MountingHole:MountingHole_2.7mm_M2.5_ISO7380_Pad")
-    )
     (path "/00000000-0000-0000-0000-000061a9b941/00000000-0000-0000-0000-00005e82c1c9"
       (reference "J0") (unit 1) (value "PJ-320B") (footprint "poma:3.5mm_stereo_jack_PJ320B_THRU")
     )
@@ -1001,9 +1005,6 @@
     )
     (path "/00000000-0000-0000-0000-000061a9b941/4315bdb0-465f-4e6d-86ee-5183cfb53c0e"
       (reference "J2") (unit 1) (value "PJ-320B") (footprint "jacks:3.5mm_stereo_jack_PJ320B")
-    )
-    (path "/00000000-0000-0000-0000-000061a9b941/589966ab-5334-4605-bd6b-77137250ff40"
-      (reference "J3") (unit 1) (value "PJ-320B") (footprint "jacks:3.5mm_stereo_jack_PJ320B")
     )
     (path "/00000000-0000-0000-0000-000061a5b3c5/00000000-0000-0000-0000-000061a5e0dd"
       (reference "J4") (unit 1) (value "Conn_01x01") (footprint "Connector_Pin:Pin_D1.0mm_L10.0mm")
@@ -1190,6 +1191,9 @@
     )
     (path "/00000000-0000-0000-0000-000061a9b941/48ec914f-516a-4941-9a05-d5ef21d5a0b6"
       (reference "U7") (unit 1) (value "LP5907MFX-1.8") (footprint "Package_TO_SOT_SMD:SOT-23-5")
+    )
+    (path "/00000000-0000-0000-0000-000061a9b941/594a01c4-b900-4993-8d9a-e917015ac883"
+      (reference "U8") (unit 1) (value "SN74LV4052APWE4") (footprint "poma:SN74LV4052APWE4")
     )
     (path "/00000000-0000-0000-0000-000061a9b941/ec7a7d72-678f-4bfb-a06b-17a4d013c413"
       (reference "UNK1") (unit 1) (value "TLV320AIC3204IRHBR") (footprint "poma:TLV320AIC3204IRHBR")
