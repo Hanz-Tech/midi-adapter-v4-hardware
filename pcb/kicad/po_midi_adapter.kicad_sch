@@ -666,11 +666,7 @@
       (effects (font (size 1.27 1.27)) (justify right))
       (uuid 52657062-5ffb-455d-b209-8aa20847e444)
     )
-    (pin "GND" output (at 109.22 73.66 0)
-      (effects (font (size 1.27 1.27)) (justify right))
-      (uuid 07590cac-6d1c-4335-bc01-40219ef54240)
-    )
-    (pin "GPIO_SPECIAL" output (at 109.22 91.44 0)
+    (pin "GPIO_SPECIAL" output (at 109.22 88.9 0)
       (effects (font (size 1.27 1.27)) (justify right))
       (uuid 7b1fc0cc-ff0e-43bb-9afc-8161aad98ff9)
     )
@@ -742,13 +738,17 @@
       (effects (font (size 1.27 1.27)) (justify right))
       (uuid 6f7394d1-3bec-4ec3-b3e3-0053402774e1)
     )
-    (pin "POT_VOL_OUT" input (at 109.22 88.9 0)
+    (pin "POT_VOL_OUT" input (at 109.22 91.44 0)
       (effects (font (size 1.27 1.27)) (justify right))
       (uuid 4bf5525b-2241-42ed-b738-2ce4cc9464dd)
     )
     (pin "POT_INPUT_PLAY_MIX" input (at 109.22 101.6 0)
       (effects (font (size 1.27 1.27)) (justify right))
       (uuid 43fd41f6-7289-4576-9df5-6fe5b225c01e)
+    )
+    (pin "GND" input (at 109.22 73.66 0)
+      (effects (font (size 1.27 1.27)) (justify right))
+      (uuid 5478efa1-8c40-4f26-a365-6d91e5418d26)
     )
   )
 
@@ -794,7 +794,7 @@
       (effects (font (size 1.27 1.27)) (justify left))
       (uuid 4f6b378a-dc07-4fce-8700-94fa475e5ea6)
     )
-    (pin "GPIO_SPECIAL" output (at 176.53 92.71 180)
+    (pin "GPIO_SPECIAL" output (at 176.53 90.17 180)
       (effects (font (size 1.27 1.27)) (justify left))
       (uuid 78917195-00f1-476a-bfc5-df1b41712e6f)
     )
@@ -858,7 +858,7 @@
       (effects (font (size 1.27 1.27)) (justify left))
       (uuid 84214198-0d9d-48d0-acd1-418cf462c682)
     )
-    (pin "POT_VOL_OUT" input (at 176.53 90.17 180)
+    (pin "POT_VOL_OUT" input (at 176.53 92.71 180)
       (effects (font (size 1.27 1.27)) (justify left))
       (uuid 3d2df01b-b6f8-4c28-a499-5e45c0dc94ff)
     )
@@ -1102,6 +1102,9 @@
     (path "/00000000-0000-0000-0000-000061a9b941/cea53281-f12e-4517-beed-a4c60a948004"
       (reference "J83") (unit 1) (value "PJ-320B") (footprint "poma:3.5mm_stereo_jack_PJ320B")
     )
+    (path "/00000000-0000-0000-0000-000061a9b941/7f805c1c-d739-41d9-b3fb-31c6ce2a0d82"
+      (reference "J84") (unit 1) (value "PJ-320B") (footprint "poma:3.5mm_stereo_jack_PJ320B")
+    )
     (path "/00000000-0000-0000-0000-000061a9b941/00000000-0000-0000-0000-00005f0ea6ae"
       (reference "J90") (unit 1) (value "MIDI_1_OUT") (footprint "poma:MIDI_DIN5_NO_ATTACHEMENT")
     )
@@ -1173,6 +1176,15 @@
     )
     (path "/00000000-0000-0000-0000-000061a9b941/c0a5804d-6173-4a24-9d9d-73310af4831d"
       (reference "R27") (unit 1) (value "100") (footprint "Resistor_SMD:R_0402_1005Metric")
+    )
+    (path "/00000000-0000-0000-0000-000061a5b3c5/8b98a130-8078-4a24-90b2-65eead02c181"
+      (reference "RV1") (unit 1) (value "R_Potentiometer_US") (footprint "poma:RES-ADJ-TH_RK09Y11L0001")
+    )
+    (path "/00000000-0000-0000-0000-000061a5b3c5/28c6dff5-64e7-4360-a60c-804d9db8aa93"
+      (reference "RV2") (unit 1) (value "R_Potentiometer_US") (footprint "poma:RES-ADJ-TH_RK09Y11L0001")
+    )
+    (path "/00000000-0000-0000-0000-000061a5b3c5/3d7b4554-de88-4d1e-a533-b85f8c5e6b9d"
+      (reference "RV3") (unit 1) (value "R_Potentiometer_US") (footprint "poma:RES-ADJ-TH_RK09Y11L0001")
     )
     (path "/00000000-0000-0000-0000-000061a9b941/00000000-0000-0000-0000-00005f1031ea"
       (reference "U1") (unit 1) (value "Teensy4.1") (footprint "Teensy:Teensy41_poma")
