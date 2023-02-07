@@ -929,10 +929,10 @@
       (reference "C17") (unit 1) (value "1uF") (footprint "Capacitor_SMD:C_0402_1005Metric")
     )
     (path "/00000000-0000-0000-0000-000061a9b941/21624f83-e116-4a01-82b0-bee67b7dce96"
-      (reference "C18") (unit 1) (value "47uF") (footprint "Capacitor_SMD:C_0402_1005Metric")
+      (reference "C18") (unit 1) (value "47uF") (footprint "Capacitor_SMD:C_0603_1608Metric")
     )
     (path "/00000000-0000-0000-0000-000061a9b941/ba04708b-f799-48b7-8114-4041e19b8b1c"
-      (reference "C19") (unit 1) (value "47uF") (footprint "Capacitor_SMD:C_0402_1005Metric")
+      (reference "C19") (unit 1) (value "47uF") (footprint "Capacitor_SMD:C_0603_1608Metric")
     )
     (path "/00000000-0000-0000-0000-000061a9b941/967f5077-a406-4e0e-bcc1-0a8200c1872a"
       (reference "C20") (unit 1) (value "10uF") (footprint "Capacitor_SMD:C_0402_1005Metric")
@@ -959,10 +959,10 @@
       (reference "C27") (unit 1) (value "1uF") (footprint "Capacitor_SMD:C_0402_1005Metric")
     )
     (path "/00000000-0000-0000-0000-000061a9b941/7dd76ff0-b236-459a-ba3a-0433b682a7f7"
-      (reference "C28") (unit 1) (value "47uF") (footprint "Capacitor_SMD:C_0402_1005Metric")
+      (reference "C28") (unit 1) (value "47uF") (footprint "Capacitor_SMD:C_0603_1608Metric")
     )
     (path "/00000000-0000-0000-0000-000061a9b941/2aabd1fc-c526-4e58-9637-91f9b56e9c1f"
-      (reference "C29") (unit 1) (value "47uF") (footprint "Capacitor_SMD:C_0402_1005Metric")
+      (reference "C29") (unit 1) (value "47uF") (footprint "Capacitor_SMD:C_0603_1608Metric")
     )
     (path "/00000000-0000-0000-0000-000061a9b941/cfec3b29-6e19-47ab-9040-d53041147bce"
       (reference "C30") (unit 1) (value "1uF") (footprint "Capacitor_SMD:C_0402_1005Metric")
@@ -1208,7 +1208,7 @@
       (reference "U8") (unit 1) (value "SN74LV4052APWE4") (footprint "poma:SN74LV4052APWE4")
     )
     (path "/00000000-0000-0000-0000-000061a9b941/ec7a7d72-678f-4bfb-a06b-17a4d013c413"
-      (reference "UNK1") (unit 1) (value "TLV320AIC3204IRHBR") (footprint "poma:TLV320AIC3204IRHBR")
+      (reference "UNK1") (unit 1) (value "TLV320AIC3204IRHBR") (footprint "Package_DFN_QFN:QFN-32-1EP_5x5mm_P0.5mm_EP3.45x3.45mm")
     )
   )
 )

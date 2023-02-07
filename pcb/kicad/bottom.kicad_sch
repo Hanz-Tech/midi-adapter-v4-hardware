@@ -3888,13 +3888,13 @@
     (property "Footprint" "poma:IC_H11L1SM" (id 2) (at 152.4 160.02 0)
       (effects (font (size 1.524 1.524)) (justify left) hide)
     )
-    (property "Datasheet" "https://jlcpcb.com/partdetail/EverlightElec-H11L1S_TA/C78589" (id 3) (at 152.4 157.48 0)
+    (property "Datasheet" "https://www.lcsc.com/product-detail/Optocouplers-Logic-Output_Everlight-Elec-H11L1S-TA_C78589.html" (id 3) (at 152.4 157.48 0)
       (effects (font (size 1.524 1.524)) (justify left) hide)
     )
     (property "Digi-Key_PN" "H11L1-MQT-ND" (id 4) (at 152.4 154.94 0)
       (effects (font (size 1.524 1.524)) (justify left) hide)
     )
-    (property "MPN" "H11L1M" (id 5) (at 152.4 152.4 0)
+    (property "MPN" "H11L1S" (id 5) (at 152.4 152.4 0)
       (effects (font (size 1.524 1.524)) (justify left) hide)
     )
     (property "Category" "Isolators" (id 6) (at 152.4 149.86 0)
@@ -3927,7 +3927,7 @@
   )
 
   (symbol (lib_id "Connector:DIN-5_180degree") (at 114.3 171.45 0) (unit 1)
-    (in_bom yes) (on_board yes)
+    (in_bom no) (on_board yes)
     (uuid 00000000-0000-0000-0000-00005e73a8fa)
     (property "Reference" "J40" (id 0) (at 114.3 177.8 0))
     (property "Value" "MIDI_1_IN" (id 1) (at 114.3 180.34 0))
@@ -4008,7 +4008,7 @@
   )
 
   (symbol (lib_id "Connector:USB_A") (at 138.43 53.34 0) (unit 1)
-    (in_bom yes) (on_board yes)
+    (in_bom no) (on_board yes)
     (uuid 00000000-0000-0000-0000-00005e802d81)
     (property "Reference" "J70" (id 0) (at 139.8778 41.4782 0))
     (property "Value" "USB_A" (id 1) (at 139.8778 43.7896 0))
@@ -4026,7 +4026,7 @@
   )
 
   (symbol (lib_id "poma:PJ-320B") (at 127 29.21 0) (unit 1)
-    (in_bom yes) (on_board yes)
+    (in_bom no) (on_board yes)
     (uuid 00000000-0000-0000-0000-00005e82c1c9)
     (property "Reference" "J0" (id 0) (at 128.4732 16.4846 0)
       (effects (font (size 0.9906 0.9906)))
@@ -4046,7 +4046,7 @@
   )
 
   (symbol (lib_id "Connector:DIN-5_180degree") (at 62.23 125.73 180) (unit 1)
-    (in_bom yes) (on_board yes)
+    (in_bom no) (on_board yes)
     (uuid 00000000-0000-0000-0000-00005f0ea6ae)
     (property "Reference" "J90" (id 0) (at 62.23 124.46 0))
     (property "Value" "MIDI_1_OUT" (id 1) (at 63.5 116.84 0))
@@ -4064,7 +4064,7 @@
   )
 
   (symbol (lib_id "poma:Teensy4.1") (at 77.47 78.74 0) (unit 1)
-    (in_bom yes) (on_board yes)
+    (in_bom no) (on_board yes)
     (uuid 00000000-0000-0000-0000-00005f1031ea)
     (property "Reference" "U1" (id 0) (at 77.47 13.589 0))
     (property "Value" "Teensy4.1" (id 1) (at 77.47 15.9004 0))
@@ -4235,10 +4235,13 @@
     (property "Footprint" "Espressif:ESP32-C3-WROOM-02" (id 2) (at 68.58 273.05 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "https://www.espressif.com/sites/default/files/documentation/esp32-c3-wroom-02_datasheet_en.pdf" (id 3) (at 6.35 273.05 0)
+    (property "Datasheet" "https://www.lcsc.com/product-detail/WiFi-Modules_Espressif-Systems-ESP32-C3-WROOM-02-N4_C2934560.html" (id 3) (at 6.35 273.05 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "LCSC" "C2934560" (id 4) (at 68.58 240.03 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "MPN" "ESP32-C3-WROOM-02" (id 5) (at 68.58 240.03 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 97e771f9-d084-48cf-9652-e622c85c3256))
@@ -4307,7 +4310,7 @@
   )
 
   (symbol (lib_id "dk_Rectangular-Connectors-Headers-Male-Pins:0022232041") (at 157.48 25.4 270) (unit 1)
-    (in_bom yes) (on_board yes)
+    (in_bom no) (on_board yes)
     (uuid 00000000-0000-0000-0000-000061bdb409)
     (property "Reference" "J99" (id 0) (at 157.6832 19.685 90))
     (property "Value" "0022232041" (id 1) (at 157.6832 21.9964 90))
@@ -4506,7 +4509,7 @@
     (property "Value" "47uF" (id 1) (at 304.8 71.12 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Capacitor_SMD:C_0402_1005Metric" (id 2) (at 300.99 68.58 0)
+    (property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (id 2) (at 300.99 68.58 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "" (id 3) (at 300.99 68.58 0))
@@ -4560,8 +4563,11 @@
     (property "Footprint" "Package_TO_SOT_SMD:SOT-23-5" (id 2) (at 373.38 77.47 0)
       (effects (font (size 1.524 1.524)) hide)
     )
-    (property "Datasheet" "" (id 3) (at 373.38 77.47 0)
-      (effects (font (size 1.524 1.524)))
+    (property "Datasheet" "https://www.lcsc.com/product-detail/Linear-Voltage-Regulators-LDO_Texas-Instruments-LP5907MFX-3-3-NOPB_C80670.html" (id 3) (at 373.38 77.47 0)
+      (effects (font (size 1.524 1.524)) hide)
+    )
+    (property "MPN" "LP5907MFX-3.3" (id 4) (at 373.38 77.47 0)
+      (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 7149ac10-4a37-4ef6-8f53-fc64dde200eb))
     (pin "2" (uuid 5ff5cd6c-bd51-4ccb-b99f-f127e3c14613))
@@ -4579,7 +4585,7 @@
     (property "Value" "47uF" (id 1) (at 308.61 78.74 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Capacitor_SMD:C_0402_1005Metric" (id 2) (at 306.07 82.55 0)
+    (property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (id 2) (at 306.07 82.55 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "" (id 3) (at 306.07 82.55 0))
@@ -4738,8 +4744,11 @@
     (property "Footprint" "Package_TO_SOT_SMD:SOT-23-5" (id 2) (at 373.38 48.26 0)
       (effects (font (size 1.524 1.524)) hide)
     )
-    (property "Datasheet" "" (id 3) (at 373.38 48.26 0)
-      (effects (font (size 1.524 1.524)))
+    (property "Datasheet" "https://www.lcsc.com/product-detail/Linear-Voltage-Regulators-LDO_Texas-Instruments-LP5907MFX-1-8-NOPB_C92498.html" (id 3) (at 373.38 48.26 0)
+      (effects (font (size 1.524 1.524)) hide)
+    )
+    (property "MPN" "LP5907MFX-1.8" (id 4) (at 373.38 48.26 0)
+      (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid e70911bf-311d-4441-b13c-0c9f82bffb85))
     (pin "2" (uuid 490b02c5-0e78-4f5d-b25e-13628ef2b9fe))
@@ -4811,8 +4820,11 @@
     (property "Footprint" "poma:SN74LV4052APWE4" (id 2) (at 139.7 86.614 0)
       (effects (font (size 1.524 1.524)) hide)
     )
-    (property "Datasheet" "" (id 3) (at 119.38 92.71 0)
-      (effects (font (size 1.524 1.524)))
+    (property "Datasheet" "https://www.lcsc.com/product-detail/Analog-Switches-Multiplexers_Texas-Instruments-SN74LV4052APWR_C8142.html" (id 3) (at 119.38 92.71 0)
+      (effects (font (size 1.524 1.524)) hide)
+    )
+    (property "MPN" "SN74LV4052APWR " (id 4) (at 119.38 92.71 0)
+      (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid f9559e0d-f8ae-4456-9abf-caaceac51497))
     (pin "10" (uuid 0b3d1f56-e29e-4e42-b34d-ed5e508dae90))
@@ -4992,7 +5004,7 @@
     (property "Value" "47uF" (id 1) (at 317.5 69.85 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Capacitor_SMD:C_0402_1005Metric" (id 2) (at 314.96 73.66 0)
+    (property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (id 2) (at 314.96 73.66 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "" (id 3) (at 314.96 73.66 0))
@@ -5148,7 +5160,7 @@
     (property "Value" "47uF" (id 1) (at 290.83 62.23 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Capacitor_SMD:C_0402_1005Metric" (id 2) (at 292.1 64.77 0)
+    (property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (id 2) (at 292.1 64.77 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "" (id 3) (at 292.1 64.77 0))
@@ -5379,10 +5391,13 @@
     (uuid ec7a7d72-678f-4bfb-a06b-17a4d013c413)
     (property "Reference" "UNK1" (id 0) (at 273.05 50.8 0))
     (property "Value" "TLV320AIC3204IRHBR" (id 1) (at 278.13 48.26 0))
-    (property "Footprint" "poma:TLV320AIC3204IRHBR" (id 2) (at 158.75 -2.54 0)
+    (property "Footprint" "Package_DFN_QFN:QFN-32-1EP_5x5mm_P0.5mm_EP3.45x3.45mm" (id 2) (at 158.75 -2.54 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "" (id 3) (at 158.75 -2.54 0)
+    (property "Datasheet" "https://www.lcsc.com/product-detail/Audio-Interface-ICs_Texas-Instruments-TLV320AIC3204IRHBR_C24109.html" (id 3) (at 158.75 -2.54 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "MPN" "TLV320AIC3204IRHBR" (id 4) (at 158.75 -2.54 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid f57b03a6-125b-453a-8f2a-24b446ebba66))
@@ -5503,12 +5518,6 @@
     (path "/00000000-0000-0000-0000-00005f22dbfd"
       (reference "C2") (unit 1) (value "0.1uF") (footprint "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder")
     )
-    (path "/00000000-0000-0000-0000-000061afe32c"
-      (reference "C4") (unit 1) (value "1uF") (footprint "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder")
-    )
-    (path "/00000000-0000-0000-0000-000061b02a1d"
-      (reference "C5") (unit 1) (value "10uF") (footprint "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder")
-    )
     (path "/00000000-0000-0000-0000-000061b070b7"
       (reference "C6") (unit 1) (value "0.1uF") (footprint "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder")
     )
@@ -5529,12 +5538,6 @@
     )
     (path "/bcea4b90-ab27-4620-81d9-a64471cb52ad"
       (reference "C12") (unit 1) (value "2.2uF") (footprint "Capacitor_SMD:C_0402_1005Metric")
-    )
-    (path "/733e4790-ce16-45ca-9350-cdc78b0917f3"
-      (reference "C13") (unit 1) (value "2.2uF") (footprint "Capacitor_SMD:C_0402_1005Metric")
-    )
-    (path "/b5610f33-cdd7-4636-bac9-a9d56e39f89f"
-      (reference "C14") (unit 1) (value "2.2uF") (footprint "Capacitor_SMD:C_0402_1005Metric")
     )
     (path "/1d9864b1-db4d-4370-ae2e-f82b499b7ac9"
       (reference "C15") (unit 1) (value "10uF") (footprint "Capacitor_SMD:C_0402_1005Metric")
@@ -5587,20 +5590,32 @@
     (path "/35beca99-84c0-4146-951d-c5af26983b3f"
       (reference "C31") (unit 1) (value "1uF") (footprint "Capacitor_SMD:C_0402_1005Metric")
     )
+    (path "/2757b0fb-027c-4081-bd3f-b99ca74cafc4"
+      (reference "C32") (unit 1) (value "10uF") (footprint "Capacitor_SMD:C_0402_1005Metric")
+    )
+    (path "/98763a03-36c6-499b-9468-67a962e3343a"
+      (reference "C33") (unit 1) (value "0.1uF") (footprint "Capacitor_SMD:C_0402_1005Metric")
+    )
+    (path "/c1410d4b-cdd3-4c02-8eb2-db82ce59ad12"
+      (reference "C34") (unit 1) (value "10uF") (footprint "Capacitor_SMD:C_0402_1005Metric")
+    )
+    (path "/543a0e88-c9ba-46d2-857e-1201b2fee74d"
+      (reference "C35") (unit 1) (value "0.1uF") (footprint "Capacitor_SMD:C_0402_1005Metric")
+    )
+    (path "/75da3119-3076-4c93-8a96-918d5e45ce57"
+      (reference "C36") (unit 1) (value "10uF") (footprint "Capacitor_SMD:C_0402_1005Metric")
+    )
+    (path "/c5567235-3b5f-47c9-ac69-d223efb120c9"
+      (reference "C37") (unit 1) (value "0.1uF") (footprint "Capacitor_SMD:C_0402_1005Metric")
+    )
+    (path "/640131c8-dcdf-45e7-b62e-2b2bdb8096e7"
+      (reference "C38") (unit 1) (value "0.1uF") (footprint "Capacitor_SMD:C_0402_1005Metric")
+    )
     (path "/00000000-0000-0000-0000-00005e7517a3"
       (reference "D1") (unit 1) (value "1N914") (footprint "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal")
     )
     (path "/00000000-0000-0000-0000-000061af8e2c"
       (reference "D2") (unit 1) (value "LED") (footprint "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder")
-    )
-    (path "/fdc82cbe-6ec7-4791-90d7-4f2a6e34d96d"
-      (reference "H1") (unit 1) (value "MountingHole_Pad") (footprint "MountingHole:MountingHole_2.7mm_M2.5_ISO7380_Pad")
-    )
-    (path "/3ca1a533-c429-4e93-a877-097cf953c497"
-      (reference "H2") (unit 1) (value "MountingHole_Pad") (footprint "MountingHole:MountingHole_2.7mm_M2.5_ISO7380_Pad")
-    )
-    (path "/9bd5f81f-c490-45d8-a723-aec44afe60f3"
-      (reference "H3") (unit 1) (value "MountingHole_Pad") (footprint "MountingHole:MountingHole_2.7mm_M2.5_ISO7380_Pad")
     )
     (path "/00000000-0000-0000-0000-00005e82c1c9"
       (reference "J0") (unit 1) (value "PJ-320B") (footprint "poma:3.5mm_stereo_jack_PJ320B_THRU")
@@ -5610,9 +5625,6 @@
     )
     (path "/4315bdb0-465f-4e6d-86ee-5183cfb53c0e"
       (reference "J2") (unit 1) (value "PJ-320B") (footprint "jacks:3.5mm_stereo_jack_PJ320B")
-    )
-    (path "/589966ab-5334-4605-bd6b-77137250ff40"
-      (reference "J3") (unit 1) (value "PJ-320B") (footprint "jacks:3.5mm_stereo_jack_PJ320B")
     )
     (path "/00000000-0000-0000-0000-00005e73a8fa"
       (reference "J40") (unit 1) (value "MIDI_1_IN") (footprint "poma:MIDI_DIN5_NO_ATTACHEMENT")
@@ -5626,14 +5638,23 @@
     (path "/ba9f1d95-67c0-4048-9e2b-1eef2d99c783"
       (reference "J82") (unit 1) (value "PJ-320B") (footprint "jacks:3.5mm_stereo_jack_PJ320B")
     )
+    (path "/cea53281-f12e-4517-beed-a4c60a948004"
+      (reference "J83") (unit 1) (value "PJ-320B") (footprint "poma:3.5mm_stereo_jack_PJ320B")
+    )
+    (path "/7f805c1c-d739-41d9-b3fb-31c6ce2a0d82"
+      (reference "J84") (unit 1) (value "PJ-320B") (footprint "poma:3.5mm_stereo_jack_PJ320B")
+    )
     (path "/00000000-0000-0000-0000-00005f0ea6ae"
       (reference "J90") (unit 1) (value "MIDI_1_OUT") (footprint "poma:MIDI_DIN5_NO_ATTACHEMENT")
     )
-    (path "/00000000-0000-0000-0000-000061b2519b"
-      (reference "J96") (unit 1) (value "0022232041") (footprint "digikey-footprints:PinHeader_1x4_P2.54mm_Drill1.02mm")
-    )
     (path "/00000000-0000-0000-0000-000061bdb409"
       (reference "J99") (unit 1) (value "0022232041") (footprint "digikey-footprints:PinHeader_1x4_P2.54mm_Drill1.02mm")
+    )
+    (path "/8b8b8a74-a2e2-4f42-a41d-54f6c660a145"
+      (reference "JP1") (unit 1) (value "Jumper") (footprint "Jumper:SolderJumper-2_P1.3mm_Open_Pad1.0x1.5mm")
+    )
+    (path "/7679e634-d3b4-4b73-98a5-b30df7e822b3"
+      (reference "JP2") (unit 1) (value "Jumper") (footprint "Jumper:SolderJumper-2_P1.3mm_Open_Pad1.0x1.5mm")
     )
     (path "/00000000-0000-0000-0000-00005c41f4c1"
       (reference "R2") (unit 1) (value "220") (footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder")
@@ -5695,9 +5716,6 @@
     (path "/c0a5804d-6173-4a24-9d9d-73310af4831d"
       (reference "R27") (unit 1) (value "100") (footprint "Resistor_SMD:R_0402_1005Metric")
     )
-    (path "/00000000-0000-0000-0000-000061aead85"
-      (reference "S1") (unit 1) (value "MOMENTARY-SWITCH-SPST-SMD-5.2MM") (footprint "poma:TACTILE_SWITCH_SMD_5.2MM")
-    )
     (path "/00000000-0000-0000-0000-00005f1031ea"
       (reference "U1") (unit 1) (value "Teensy4.1") (footprint "Teensy:Teensy41_poma")
     )
@@ -5705,10 +5723,7 @@
       (reference "U2") (unit 1) (value "SN74LVC1G07DBVR") (footprint "digikey-footprints:SOT-753")
     )
     (path "/00000000-0000-0000-0000-00005e732c8b"
-      (reference "U3") (unit 1) (value "H11L1M") (footprint "Package_DIP:DIP-6_W7.62mm")
-    )
-    (path "/00000000-0000-0000-0000-000061ae8f7a"
-      (reference "U4") (unit 1) (value "LM1117-3.3") (footprint "Package_TO_SOT_SMD:SOT-223")
+      (reference "U3") (unit 1) (value "H11L1S") (footprint "Package_DIP:DIP-6_W7.62mm")
     )
     (path "/00000000-0000-0000-0000-000061afdd18"
       (reference "U5") (unit 1) (value "ESP32-C3-WROOM-02") (footprint "Espressif:ESP32-C3-WROOM-02")
@@ -5719,8 +5734,11 @@
     (path "/48ec914f-516a-4941-9a05-d5ef21d5a0b6"
       (reference "U7") (unit 1) (value "LP5907MFX-1.8") (footprint "Package_TO_SOT_SMD:SOT-23-5")
     )
+    (path "/594a01c4-b900-4993-8d9a-e917015ac883"
+      (reference "U8") (unit 1) (value "SN74LV4052APWR ") (footprint "poma:SN74LV4052APWE4")
+    )
     (path "/ec7a7d72-678f-4bfb-a06b-17a4d013c413"
-      (reference "UNK1") (unit 1) (value "TLV320AIC3204IRHBR") (footprint "poma:TLV320AIC3204IRHBR")
+      (reference "UNK1") (unit 1) (value "TLV320AIC3204IRHBR") (footprint "Package_DFN_QFN:QFN-32-1EP_5x5mm_P0.5mm_EP3.45x3.45mm_ThermalVias")
     )
   )
 )

@@ -33,9 +33,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.0,
-          "height": 3.8,
-          "width": 2.0
+          "drill": 2.7,
+          "height": 4.5,
+          "width": 4.5
         },
         "silk_line_width": 0.15,
         "silk_text_italic": false,
@@ -106,7 +106,7 @@
         "allow_blind_buried_vias": false,
         "allow_microvias": false,
         "max_error": 0.005,
-        "min_clearance": 0.25,
+        "min_clearance": 0.22,
         "min_copper_edge_clearance": 0.09999999999999999,
         "min_hole_clearance": 0.25,
         "min_hole_to_hole": 0.25,
@@ -121,6 +121,7 @@
       },
       "track_widths": [
         0.0,
+        0.1,
         0.25,
         0.508,
         0.635,
