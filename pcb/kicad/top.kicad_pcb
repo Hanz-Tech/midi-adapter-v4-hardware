@@ -75,9 +75,9 @@
       (subtractmaskfromsilk false)
       (outputformat 1)
       (mirror false)
-      (drillshape 1)
+      (drillshape 0)
       (scaleselection 1)
-      (outputdirectory "")
+      (outputdirectory "export/top/")
     )
   )
 
@@ -767,7 +767,7 @@
     (property "Sheetname" "top")
     (path "/00000000-0000-0000-0000-000061a5b3c5/28c6dff5-64e7-4360-a60c-804d9db8aa93")
     (attr through_hole)
-    (fp_text reference "RV2" (at 6.565 0.36 unlocked) (layer "F.SilkS")
+    (fp_text reference "RV2" (at 6.565 0.36 unlocked) (layer "F.SilkS") hide
       (effects (font (size 1.27 1.27) (thickness 0.15)))
       (tstamp 6c44a2da-d29d-4474-86d7-f0bf543899c9)
     )
@@ -864,7 +864,7 @@
     (property "Sheetname" "top")
     (path "/00000000-0000-0000-0000-000061a5b3c5/8b98a130-8078-4a24-90b2-65eead02c181")
     (attr through_hole)
-    (fp_text reference "RV1" (at -6.68 0.755 unlocked) (layer "F.SilkS")
+    (fp_text reference "RV1" (at -6.68 0.755 unlocked) (layer "F.SilkS") hide
       (effects (font (size 1.27 1.27) (thickness 0.15)))
       (tstamp 56d35179-fb8b-4fe3-8004-b782f93c42a1)
     )
@@ -961,7 +961,7 @@
     (property "Sheetname" "top")
     (path "/00000000-0000-0000-0000-000061a5b3c5/3d7b4554-de88-4d1e-a533-b85f8c5e6b9d")
     (attr through_hole)
-    (fp_text reference "RV3" (at 5.93 0.465 unlocked) (layer "F.SilkS")
+    (fp_text reference "RV3" (at 5.93 0.465 unlocked) (layer "F.SilkS") hide
       (effects (font (size 1.27 1.27) (thickness 0.15)))
       (tstamp bda57d54-feb0-4c2b-b691-096d7a647a41)
     )
