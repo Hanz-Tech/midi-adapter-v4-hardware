@@ -1,6 +1,6 @@
 {
   "board": {
-    "active_layer": 32,
+    "active_layer": 0,
     "active_layer_preset": "",
     "auto_track_width": false,
     "hidden_nets": [],
@@ -62,8 +62,8 @@
       35,
       36
     ],
-    "visible_layers": "ff83e45_80000003",
-    "zone_display_mode": 1
+    "visible_layers": "ff8fe6b_00000003",
+    "zone_display_mode": 0
   },
   "meta": {
     "filename": "po_midi_adapter.kicad_prl",
